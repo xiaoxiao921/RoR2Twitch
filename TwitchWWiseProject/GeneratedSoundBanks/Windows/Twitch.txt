@@ -1,0 +1,82 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3114958	TwitchThrowCask			\TwitchWorkUnit\TwitchThrowCask	
+	20413905	TwitchCaskHit			\TwitchWorkUnit\TwitchCaskHit	
+	362784462	TwitchGrenadeStart			\TwitchWorkUnit\TwitchGrenadeStart	
+	452898961	TwitchAttackBazooka			\TwitchWorkUnit\TwitchAttackBazooka	
+	636341475	TwitchAttackGunLaser			\TwitchWorkUnit\TwitchAttackGunLaser	
+	640395267	TwitchExpungeHit			\TwitchWorkUnit\TwitchExpungeHit	
+	827627226	TwitchHeal			\TwitchWorkUnit\TwitchHeal	
+	935941118	TwitchAmbushGun			\TwitchWorkUnit\TwitchAmbushGun	
+	1177580875	TwitchCheese			\TwitchWorkUnit\TwitchCheese	
+	1400644867	TwitchEnterStealth			\TwitchWorkUnit\TwitchEnterStealth	
+	1581325182	TwitchThrowGrenade			\TwitchWorkUnit\TwitchThrowGrenade	
+	2186240790	TwitchFireShotgun			\TwitchWorkUnit\TwitchFireShotgun	
+	2442490128	TwitchAttack			\TwitchWorkUnit\TwitchAttack	
+	2846195716	TwitchAttackStart			\TwitchWorkUnit\TwitchAttackStart	
+	2893976081	TwitchAttackLaser			\TwitchWorkUnit\TwitchAttackLaser	
+	3045474585	TwitchExitStealth			\TwitchWorkUnit\TwitchExitStealth	
+	3063829837	TwitchGrenadeTick			\TwitchWorkUnit\TwitchGrenadeTick	
+	3530745881	TwitchMenu			\TwitchWorkUnit\TwitchMenu	
+	3600341516	TwitchExpunge			\TwitchWorkUnit\TwitchExpunge	
+	3640829920	TwitchAmbush			\TwitchWorkUnit\TwitchAmbush	
+	3994760590	TwitchCaskStart			\TwitchWorkUnit\TwitchCaskStart	
+	4002823662	TwitchAttackGun			\TwitchWorkUnit\TwitchAttackGun	
+	4271081840	TwitchCharge			\TwitchWorkUnit\TwitchCharge	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43226975	TwitchGunshot4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGunshot4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGunshot\TwitchGunshot4		11065
+	43439696	TwitchCaskHit1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskHit1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskHit\TwitchCaskHit1		20905
+	43748719	TwitchExpunge2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpunge2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpunge\TwitchExpunge2		8788
+	47380120	TwitchGrenadeTick1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGrenadeTick1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGrenadeTick\TwitchGrenadeTick1		13143
+	54101265	TwitchCaskLaunch3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskLaunch3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskLaunch\TwitchCaskLaunch3		11260
+	60794382	TwitchCaskHit2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskHit2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskHit\TwitchCaskHit2		23197
+	76954664	TwitchExpungeHit2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpungeHit2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpungeHit\TwitchExpungeHit2		19264
+	89418204	TwitchExitStealth	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExitStealth_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExitStealth		12738
+	117603240	TwitchGunshot3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGunshot3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGunshot\TwitchGunshot3		10579
+	127561323	TwitchAttack4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack4		6337
+	138633486	TwitchAttack1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack1		6424
+	155846483	TwitchCaskHit3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskHit3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskHit\TwitchCaskHit3		22444
+	163620772	TwitchAttack5	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack5_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack5		7269
+	167205796	TwitchGunshot2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGunshot2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGunshot\TwitchGunshot2		11190
+	169017549	TwitchAttackStart3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttackStart3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttackStart\TwitchAttackStart3		3090
+	169306667	TwitchThrowCask2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchThrowCask2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchThrowCask\TwitchThrowCask2		10797
+	172964595	TwitchGrenadeTick3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGrenadeTick3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGrenadeTick\TwitchGrenadeTick3		16691
+	188564029	TwitchFireShotgun1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchFireShotgun1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchFireShotgun\TwitchFireShotgun1		40100
+	225868745	TwitchHeal	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchHeal_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchHeal		13318
+	241558621	TwitchUltiTommyGun	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiTommyGun_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiTommyGun		14281
+	243694532	TwitchCaskLaunch2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskLaunch2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskLaunch\TwitchCaskLaunch2		11377
+	307593731	TwitchGrenadeTick2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGrenadeTick2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGrenadeTick\TwitchGrenadeTick2		14427
+	333266560	TwitchAttackStart2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttackStart2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttackStart\TwitchAttackStart2		2911
+	343048134	TwitchUltiGunAttack4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiGunAttack4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttackGun\TwitchUltiGunAttack4		9957
+	368418753	TwitchUltiAttack3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiAttack3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttack\TwitchUltiAttack3		13077
+	393980980	TwitchCaskLaunch1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCaskLaunch1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCaskLaunch\TwitchCaskLaunch1		10785
+	415596200	TwitchUltiAttack1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiAttack1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttack\TwitchUltiAttack1		13459
+	438713304	TwitchGunshot1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGunshot1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGunshot\TwitchGunshot1		10599
+	453033364	TwitchFireShotgun2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchFireShotgun2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchFireShotgun\TwitchFireShotgun2		40583
+	492277882	TwitchAttackStart1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttackStart1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttackStart\TwitchAttackStart1		3309
+	526827144	TwitchExpunge4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpunge4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpunge\TwitchExpunge4		8779
+	619686428	TwitchCheese	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchCheese_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchCheese		46281
+	643359713	TwitchUltiAttack2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiAttack2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttack\TwitchUltiAttack2		13196
+	661173413	TwitchUltiCrossbow	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiCrossbow_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiCrossbow		29876
+	705080399	TwitchUltiGunAttack3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiGunAttack3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttackGun\TwitchUltiGunAttack3		10501
+	761219105	TwitchUltiGunAttack1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiGunAttack1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttackGun\TwitchUltiGunAttack1		10061
+	766147911	TwitchAttack3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack3		7141
+	772269203	TwitchAttack6	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack6_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack6		8660
+	772969943	TwitchExpungeHit1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpungeHit1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpungeHit\TwitchExpungeHit1		17557
+	802051571	TwitchThrowCask3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchThrowCask3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchThrowCask\TwitchThrowCask3		10522
+	815376701	TwitchEnterStealth	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchEnterStealth_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchEnterStealth		28216
+	837752566	TwitchGrenadeEquip	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGrenadeEquip_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGrenadeEquip		7860
+	902005407	TwitchMenu	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchMenu_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchMenu		67176
+	919136922	TwitchGrenadeThrow	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchGrenadeThrow_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchGrenadeThrow		6403
+	934576671	TwitchExpungeHit3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpungeHit3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpungeHit\TwitchExpungeHit3		17480
+	938987272	TwitchThrowCask1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchThrowCask1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchThrowCask\TwitchThrowCask1		10195
+	953523465	TwitchUltiGunAttack2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchUltiGunAttack2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchUltiAttackGun\TwitchUltiGunAttack2		10246
+	959213400	TwitchAttack2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchAttack2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchAttack\TwitchAttack2		6099
+	989768429	TwitchExpunge3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpunge3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpunge\TwitchExpunge3		7256
+	997314084	TwitchExpunge1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchExpunge1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchExpunge\TwitchExpunge1		9083
+	1008247498	TwitchChargeBazooka	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchChargeBazooka_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchChargeBazooka		64643
+	1061059281	TwitchBazookaFire	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\TwitchBazookaFire_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\TwitchSFX\TwitchBazookaFire		65238
+

@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1950796548	MinerSwing			\MinerWorkUnit\MinerSwing	
+	2833975406	MinerSelect			\MinerWorkUnit\MinerSelect	
+	2979910065	MinerHit			\MinerWorkUnit\MinerHit	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	33834541	MinerSwing2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerSwing2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerSwing\MinerSwing2		0
+	174201832	MinerSwing1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerSwing1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerSwing\MinerSwing1		0
+	338996033	MinerSwing3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerSwing3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerSwing\MinerSwing3		0
+	701218497	MinerSelect	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerSelect_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerSelect		0
+	749682890	MinerHit2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerHit2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerHit\MinerHit2		0
+	753832671	MinerHit1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerHit1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerHit\MinerHit1		0
+	950976251	MinerHit3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MinerHit3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\MinerSFX\MinerHit\MinerHit3		0
+

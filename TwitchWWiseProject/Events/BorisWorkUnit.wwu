@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="BorisWorkUnit" ID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="BorisLoop" ID="{A54FB545-4A62-4F6F-9A56-5680441EF8E2}">
+					<ChildrenList>
+						<Action Name="" ID="{7EE7ACE4-2EC5-4F51-A3C6-C17C03E6ACD3}" ShortID="567675700">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisLoop" ID="{7B6079B1-FA79-49E1-BAEE-6021819118D1}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisSpawn" ID="{54C2D6BE-8BB9-456E-9322-9FB2C6C8B3BF}">
+					<ChildrenList>
+						<Action Name="" ID="{B49DC6FA-7CA0-40AD-ADF9-D50007604322}" ShortID="5868136">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisSpawn" ID="{D7E315F6-BA7E-4860-BBF1-BD570D738B04}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisHit" ID="{6E48841A-7226-4EFC-B040-051052CA8FAD}">
+					<ChildrenList>
+						<Action Name="" ID="{5BEB1E29-6C54-4940-9B96-83018F83EEC7}" ShortID="690758677">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisHit" ID="{1956F660-ADA9-4969-9CFC-4BC31857ED48}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisSwing" ID="{21AA8EBF-782E-4E6A-A853-5D1A15B19DAC}">
+					<ChildrenList>
+						<Action Name="" ID="{998CB211-B3A8-41D0-AD0B-0181CDAEFB61}" ShortID="51004445">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisSwing" ID="{130039E5-9113-4397-83EC-0442F9837397}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisThrust" ID="{AB02FE24-EE1B-4BF3-A908-71C64177F6FE}">
+					<ChildrenList>
+						<Action Name="" ID="{439F021F-A6D2-49FD-BE69-B92A8B7A9896}" ShortID="554559663">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisPassiveSwing" ID="{300D448C-A5AF-4F44-AD91-F137E63CE5D1}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisThrustHit" ID="{FC5C576D-B95B-4665-9995-0083D7900B3B}">
+					<ChildrenList>
+						<Action Name="" ID="{54408888-EEDC-4FDD-87FD-F4DC717532BF}" ShortID="67532238">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisPassiveStrike" ID="{6B6B3A90-3A3F-4825-89F5-3D4B5B4DE3C9}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisDash" ID="{8D9E521C-9779-4633-A840-83CC987C8FD7}">
+					<ChildrenList>
+						<Action Name="" ID="{40135AAC-5DE6-41B3-B33B-BB1C1508557A}" ShortID="122807232">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisDash" ID="{0DE17417-75B3-4CE3-BB84-BA8D862025E0}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisJudgementStart" ID="{2F1E5771-C6E6-4538-8BDB-3F2E274AAF9C}">
+					<ChildrenList>
+						<Action Name="" ID="{06115517-B2A6-4C62-A41B-88465B570015}" ShortID="789312819">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisJudgementStart" ID="{2681BAF7-5411-4777-A27C-3856548CB046}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisJudgementEnd" ID="{21BBEF95-811E-4F5E-9520-BD70BB1F0F6C}">
+					<ChildrenList>
+						<Action Name="" ID="{FC049B1E-57FA-487F-825E-B712388C1172}" ShortID="624533997">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisJudgementEnd" ID="{D61F5A52-AC3A-4973-8314-5E7F4749893E}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisUltReady" ID="{2AB5873A-FD9A-4EC3-BDE5-5FCAE0D58E48}">
+					<ChildrenList>
+						<Action Name="" ID="{ED3918FB-CFBF-4BC5-ACDD-AB61EB4BA84F}" ShortID="758931837">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisUltReady" ID="{296D6F34-ED51-4868-8666-46949C25E1A8}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisBlink" ID="{DF3DDCAD-0BAB-4623-9A8C-AAD409E8CCD4}">
+					<ChildrenList>
+						<Action Name="" ID="{08E27021-C185-4103-B4B3-DB9BE9C8C407}" ShortID="89950105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisBlink" ID="{8229317E-8AC6-47B3-9C67-496B38AC1103}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisBlastImpact" ID="{6536CEC5-A423-4888-B89B-4BD562FF9B78}">
+					<ChildrenList>
+						<Action Name="" ID="{99FDACB4-4B01-4078-9B05-CEB89504291E}" ShortID="685706909">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisBlastImpact" ID="{6CE3D74E-A7B6-40E6-90B3-95DF94811137}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisFireBlast" ID="{BC865010-9EF0-4630-B73E-BE2034D80920}">
+					<ChildrenList>
+						<Action Name="" ID="{B7F7F44A-6B59-4849-B33E-EEC5DC200F64}" ShortID="72625252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BorisFireBlast" ID="{DB506FBD-A989-464C-99CB-11B12ADAD88C}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BorisJudgementExplosion" ID="{39831BA1-7AAF-4A17-9625-63CA97302478}">
+					<ChildrenList>
+						<Action Name="" ID="{AAE886FA-5022-49F4-BA39-4D66C197DC00}" ShortID="891984469">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JudgementExplosion" ID="{5CFC7234-26DD-4A7A-BCD3-5F2BBA71765E}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

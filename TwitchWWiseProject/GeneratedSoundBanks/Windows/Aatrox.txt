@@ -1,0 +1,75 @@
+Event	ID	Name			Wwise Object Path	Notes
+	78360149	Stinger			\Default Work Unit\Stinger	
+	85354592	AatroxHeavySlash			\Default Work Unit\AatroxHeavySlash	
+	615573799	StingerStart			\Default Work Unit\StingerStart	
+	815195140	AatroxChargeShot			\Default Work Unit\AatroxChargeShot	
+	1179606491	AatroxFlurryEnd			\Default Work Unit\AatroxFlurryEnd	
+	1251923255	ShadowStep			\Default Work Unit\ShadowStep	
+	1348282341	DarkFlightDive			\Default Work Unit\DarkFlightDive	
+	1536966621	DarkFlightStart			\Default Work Unit\DarkFlightStart	
+	1556072704	AatroxFlurryStart			\Default Work Unit\AatroxFlurryStart	
+	1586250677	DarkFlightImpact			\Default Work Unit\DarkFlightImpact	
+	1627088512	AatroxSwapSword			\Default Work Unit\AatroxSwapSword	
+	1748799039	AatroxSwordSwing			\Default Work Unit\AatroxSwordSwing	
+	1803537559	AatroxDownslash			\Default Work Unit\AatroxDownslash	
+	1837441485	AatroxRainstorm			\Default Work Unit\AatroxRainstorm	
+	1911371405	AatroxStabbed			\Default Work Unit\AatroxStabbed	
+	1949956469	AatroxSwapGun			\Default Work Unit\AatroxSwapGun	
+	2210989100	PriceToggle			\Default Work Unit\PriceToggle	
+	2797714847	AatroxLightSlash			\Default Work Unit\AatroxLightSlash	
+	2884538902	AatroxGunshot			\Default Work Unit\AatroxGunshot	
+	2960115348	MassacreCancel			\Default Work Unit\MassacreCancel	
+	3140993980	AatroxUppercut			\Default Work Unit\AatroxUppercut	
+	3497990890	BladesOfTorment			\Default Work Unit\BladesOfTorment	
+	3870480863	MassacreCast			\Default Work Unit\MassacreCast	
+	3876777168	AatroxBigHeal			\Default Work Unit\AatroxBigHeal	
+	3903194821	ThirstToggle			\Default Work Unit\ThirstToggle	
+	4088750100	MassacreLoop			\Default Work Unit\MassacreLoop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16640339	DarkFlightImpact3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DarkFlightImpact3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DarkFlightImpact\DarkFlightImpact3		0
+	17341425	AatroxLightSlash3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxLightSlash3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\LightSlash\AatroxLightSlash3		0
+	22591869	Stinger	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Stinger_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Stinger		0
+	26782254	Massacre1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Massacre1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Massacre\Massacre1		0
+	63566436	BigHeal1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BigHeal1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\BigHeal\BigHeal1		0
+	114737498	DTEnd	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DTEnd_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DTEnd		0
+	213257725	AatroxHeavySlash4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxHeavySlash4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\HeavySlash\AatroxHeavySlash4		0
+	239713227	ShadowStep	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\ShadowStep_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\ShadowStep		0
+	280825185	AatroxSwing2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwing2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Swing\AatroxSwing2		0
+	311161037	PriceToggle	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\PriceToggle_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\PriceToggle		0
+	313152391	DarkFlightImpact1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DarkFlightImpact1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DarkFlightImpact\DarkFlightImpact1		0
+	322750236	ThirstToggle	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\ThirstToggle_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\ThirstToggle		0
+	328690934	AatroxSwing3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwing3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Swing\AatroxSwing3		0
+	345155110	AatroxSwing4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwing4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Swing\AatroxSwing4		0
+	345434179	AatroxChargeShot	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxChargeShot_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxChargeShot		0
+	346382003	AatroxHeavySlash2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxHeavySlash2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\HeavySlash\AatroxHeavySlash2		0
+	531018473	DarkFlightImpact2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DarkFlightImpact2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DarkFlightImpact\DarkFlightImpact2		0
+	539533868	AatroxLightSlash1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxLightSlash1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\LightSlash\AatroxLightSlash1		0
+	571800276	AatroxHeavySlash1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxHeavySlash1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\HeavySlash\AatroxHeavySlash1		0
+	575624045	DarkFlightLiftoff	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DarkFlightLiftoff_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DarkFlightLiftoff		0
+	610275919	BladesOfTorment2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BladesOfTorment2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\BladesOfTorment\BladesOfTorment2		0
+	614928239	AatroxRainstormStart	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxRainstormStart_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxRainstormStart		0
+	636055829	Downslash	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Downslash_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Downslash		0
+	645053519	StingerStart	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\StingerStart_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\StingerStart		0
+	785327927	Massacre3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Massacre3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Massacre\Massacre3		0
+	790015164	AatroxFlurryEnd	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxFlurryEnd_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxFlurryEnd		0
+	796507029	AatroxLightSlash2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxLightSlash2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\LightSlash\AatroxLightSlash2		0
+	803824592	DarkFlightDescent	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\DarkFlightDescent_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\DarkFlightDescent		0
+	824427568	Massacre2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Massacre2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Massacre\Massacre2		0
+	833892657	AatroxGunshot	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxGunshot_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxGunshot		0
+	842671890	AatroxStabbed	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxStabbed_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxStabbed		0
+	913989023	AatroxSwapSword	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwapSword_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxSwapSword		0
+	926017927	AatroxHeavySlash3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxHeavySlash3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\HeavySlash\AatroxHeavySlash3		0
+	976894342	AatroxSwapGun	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwapGun_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxSwapGun		0
+	983538909	MassacreLoop	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\MassacreLoop_A267B9E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\MassacreLoop		0
+	985324579	BladesOfTorment3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BladesOfTorment3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\BladesOfTorment\BladesOfTorment3		0
+	1004495452	AatroxSwing1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxSwing1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Swing\AatroxSwing1		0
+	1006530107	AatroxFlurryStart	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxFlurryStart_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\AatroxFlurryStart		0
+	1016142905	BladesOfTorment1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BladesOfTorment1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\BladesOfTorment\BladesOfTorment1		0
+	1024975115	AatroxLightSlash4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\AatroxLightSlash4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\LightSlash\AatroxLightSlash4		0
+	1052160400	Uppercut	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\Uppercut_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\Uppercut		9782
+	1063272222	BigHeal2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BigHeal2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\AatroxSFX\BigHeal\BigHeal2		0
+

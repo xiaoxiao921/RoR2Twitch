@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1B8F848-2F73-4CF3-8FF7-16EBB09E1CAC}" SchemaVersion="89">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{B1B8F848-2F73-4CF3-8FF7-16EBB09E1CAC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="BorisDistortion" ID="{8B2423DB-11B9-44F9-979C-1150BEF00048}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand1Frequency" Type="Real32" Value="333"/>
+						<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand2FilterType" Type="int32" Value="4"/>
+						<Property Name="PreEQBand2Frequency" Type="Real32" Value="79"/>
+						<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand3FilterType" Type="int32" Value="1"/>
+						<Property Name="PreEQBand3Frequency" Type="Real32" Value="20"/>
+						<Property Name="PreEQBand3QFactor" Type="Real32" Value="0.1"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
