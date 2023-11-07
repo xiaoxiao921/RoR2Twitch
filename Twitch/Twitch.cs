@@ -19,7 +19,7 @@ using UnityEngine.Rendering;
 namespace Twitch
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInPlugin("com.rob.Twitch", "Twitch", "2.3.0")]
+    [BepInPlugin("com.rob.Twitch", "Twitch", "2.3.1")]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     public class Twitch : BaseUnityPlugin
     {
@@ -56,9 +56,9 @@ namespace Twitch
             LanguageAPI.Add("ROB_TWITCH_SIMPLEUNLOCKABLE_ACHIEVEMENT_NAME", "Twitch: Pestilence");
             LanguageAPI.Add("ROB_TWITCH_SIMPLEUNLOCKABLE_ACHIEVEMENT_DESC", "As Twitch, expunge 40 stacks of venom on a single target.");
             LanguageAPI.Add("ROB_TWITCH_SIMPLEUNLOCKABLE_UNLOCKABLE_NAME", "Twitch: Pestilence");
-            MasteryUnlockableDef = UnlockableAPI.AddUnlockable<MasteryUnlockable>(true);
-            TarUnlockableDef = UnlockableAPI.AddUnlockable<TarUnlockable>(true);
-            SimpleUnlockableDef = UnlockableAPI.AddUnlockable<SimpleUnlockable>(true);
+            MasteryUnlockableDef = UnlockableAPI.AddUnlockable<MasteryUnlockable>();
+            TarUnlockableDef = UnlockableAPI.AddUnlockable<TarUnlockable>();
+            SimpleUnlockableDef = UnlockableAPI.AddUnlockable<SimpleUnlockable>();
         }
 
         private void RegisterDot()
@@ -521,7 +521,7 @@ namespace Twitch
             gameObject.AddComponent<NetworkIdentity>();
             gameObject.AddComponent<ProjectileGhostController>();
             Twitch.boltProjectile.GetComponent<ProjectileController>().ghostPrefab = gameObject;
-            Twitch.boltProjectile.GetComponent<ProjectileSimple>().velocity *= 1.5f;
+            Twitch.boltProjectile.GetComponent<ProjectileSimple>().desiredForwardSpeed *= 1.5f;
             Twitch.boltProjectile.GetComponent<ProjectileController>().procCoefficient = 1f;
             Twitch.boltProjectile.GetComponent<ProjectileDamage>().damage = 1f;
             Twitch.boltProjectile.GetComponent<ProjectileDamage>().damageType = DamageType.BlightOnHit;
@@ -545,7 +545,7 @@ namespace Twitch
             Twitch.caskProjectile.GetComponent<ProjectileDamage>().damageType = DamageType.BlightOnHit;
             Twitch.caskProjectile.GetComponent<ProjectileController>().procCoefficient = 1f;
             Twitch.caskProjectile.GetComponent<ProjectileSimple>().enableVelocityOverLifetime = Resources.Load<GameObject>("Prefabs/Projectiles/BeetleQueenSpit").GetComponent<ProjectileSimple>().enableVelocityOverLifetime;
-            Twitch.caskProjectile.GetComponent<ProjectileSimple>().velocity = Resources.Load<GameObject>("Prefabs/Projectiles/BeetleQueenSpit").GetComponent<ProjectileSimple>().velocity;
+            Twitch.caskProjectile.GetComponent<ProjectileSimple>().desiredForwardSpeed = Resources.Load<GameObject>("Prefabs/Projectiles/BeetleQueenSpit").GetComponent<ProjectileSimple>().velocity;
             Twitch.caskProjectile.GetComponent<ProjectileSimple>().velocityOverLifetime = Resources.Load<GameObject>("Prefabs/Projectiles/BeetleQueenSpit").GetComponent<ProjectileSimple>().velocityOverLifetime;
             ProjectileImpactExplosion component = Twitch.caskProjectile.GetComponent<ProjectileImpactExplosion>();
             ProjectileImpactExplosion component2 = Resources.Load<GameObject>("Prefabs/Projectiles/BeetleQueenSpit").GetComponent<ProjectileImpactExplosion>();
@@ -721,13 +721,11 @@ namespace Twitch
             survivorDef.primaryColor = Twitch.characterColor;
             survivorDef.bodyPrefab = Twitch.characterPrefab;
             survivorDef.displayPrefab = characterDisplay;
+            survivorDef.desiredSortPosition = 20;
             ContentAddition.AddBody(Twitch.characterPrefab);
             ContentAddition.AddSurvivorDef(survivorDef);
             //ItemDisplaySetup();
-            RoR2Application.onLoad += () =>
-            {
-                ItemDisplaySetup();
-            };
+            RoR2Application.onLoad += ItemDisplaySetup;
             SkillSetup();
             CreateMaster();
             SkinSetup();
@@ -3414,7 +3412,6 @@ namespace Twitch
             skillFamily2.variants[skillFamily2.variants.Length - 1] = new SkillFamily.Variant
             {
                 skillDef = skillDef,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
             bool value = Twitch.boom.Value;
@@ -3446,7 +3443,6 @@ namespace Twitch
                 skillFamily2.variants[skillFamily2.variants.Length - 1] = new SkillFamily.Variant
                 {
                     skillDef = skillDef,
-                    unlockableName = "",
                     viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
                 };
             }
@@ -3520,7 +3516,6 @@ namespace Twitch
             skillFamily2.variants[skillFamily2.variants.Length - 1] = new SkillFamily.Variant
             {
                 skillDef = skillDef,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
         }
@@ -3560,7 +3555,6 @@ namespace Twitch
             skillFamily2.variants[0] = new SkillFamily.Variant
             {
                 skillDef = skillDef,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
             Twitch.ambushDef = skillDef;
@@ -3613,7 +3607,6 @@ namespace Twitch
             skillFamily2.variants[skillFamily2.variants.Length - 1] = new SkillFamily.Variant
             {
                 skillDef = skillDef3,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
             LanguageAPI.Add("TWITCH_UTILITY_CHEESE_NAME", "Cheese");
@@ -3642,7 +3635,6 @@ namespace Twitch
             skillFamily2.variants[skillFamily2.variants.Length - 1] = new SkillFamily.Variant
             {
                 skillDef = skillDef4,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
         }
@@ -3687,7 +3679,6 @@ namespace Twitch
             skillFamily2.variants[0] = new SkillFamily.Variant
             {
                 skillDef = skillDef,
-                unlockableName = "",
                 viewableNode = new ViewablesCatalog.Node(skillDef.skillNameToken, false, null)
             };
         }

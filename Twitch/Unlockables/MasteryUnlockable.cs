@@ -49,7 +49,7 @@ namespace Twitch.Unlockables
             get;
         } = "ROB_TWITCH_MASTERYUNLOCKABLE_UNLOCKABLE_NAME";
 
-        public override Sprite Sprite => Resources.Load<Sprite>("");
+        public override Sprite Sprite => Resources.Load<Sprite>("Textures/AchievementIcons/texPlaceholderAchievement");
 
         public override Func<string> GetHowToUnlock { get; } = () => Language.GetStringFormatted("UNLOCK_VIA_ACHIEVEMENT_FORMAT", new object[]
                             {
