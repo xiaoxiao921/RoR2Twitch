@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\lucky\Desktop\Aatrox\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lucky\Desktop\Aatrox\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lucky\Desktop\Aatrox\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\lucky\Desktop\Aatrox\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="196240563">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2344792960" Language="SFX" Hash="2492952034">
+			<ObjectPath>\SoundBanks\Default Work Unit\Aatrox</ObjectPath>
+			<ShortName>Aatrox</ShortName>
+			<Path>Aatrox.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3876777168" Name="AatroxBigHeal" ObjectPath="\Events\Default Work Unit\AatroxBigHeal">
+					<IncludedMemoryFiles>
+						<File Id="63566436" Language="SFX">
+							<ShortName>BigHeal1.wav</ShortName>
+							<Path>SFX\BigHeal1_27283788.wem</Path>
+						</File>
+						<File Id="1063272222" Language="SFX">
+							<ShortName>BigHeal2.wav</ShortName>
+							<Path>SFX\BigHeal2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="815195140" Name="AatroxChargeShot" ObjectPath="\Events\Default Work Unit\AatroxChargeShot">
+					<IncludedMemoryFiles>
+						<File Id="345434179" Language="SFX">
+							<ShortName>AatroxChargeShot.wav</ShortName>
+							<Path>SFX\AatroxChargeShot_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1803537559" Name="AatroxDownslash" ObjectPath="\Events\Default Work Unit\AatroxDownslash">
+					<IncludedMemoryFiles>
+						<File Id="636055829" Language="SFX">
+							<ShortName>Downslash.wav</ShortName>
+							<Path>SFX\Downslash_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1179606491" Name="AatroxFlurryEnd" ObjectPath="\Events\Default Work Unit\AatroxFlurryEnd">
+					<IncludedMemoryFiles>
+						<File Id="790015164" Language="SFX">
+							<ShortName>AatroxFlurryEnd.wav</ShortName>
+							<Path>SFX\AatroxFlurryEnd_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1556072704" Name="AatroxFlurryStart" ObjectPath="\Events\Default Work Unit\AatroxFlurryStart">
+					<IncludedMemoryFiles>
+						<File Id="1006530107" Language="SFX">
+							<ShortName>AatroxFlurryStart.wav</ShortName>
+							<Path>SFX\AatroxFlurryStart_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2884538902" Name="AatroxGunshot" ObjectPath="\Events\Default Work Unit\AatroxGunshot">
+					<IncludedMemoryFiles>
+						<File Id="833892657" Language="SFX">
+							<ShortName>AatroxGunshot.wav</ShortName>
+							<Path>SFX\AatroxGunshot_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="85354592" Name="AatroxHeavySlash" ObjectPath="\Events\Default Work Unit\AatroxHeavySlash">
+					<IncludedMemoryFiles>
+						<File Id="213257725" Language="SFX">
+							<ShortName>AatroxHeavySlash4.wav</ShortName>
+							<Path>SFX\AatroxHeavySlash4_27283788.wem</Path>
+						</File>
+						<File Id="346382003" Language="SFX">
+							<ShortName>AatroxHeavySlash2.wav</ShortName>
+							<Path>SFX\AatroxHeavySlash2_27283788.wem</Path>
+						</File>
+						<File Id="571800276" Language="SFX">
+							<ShortName>AatroxHeavySlash1.wav</ShortName>
+							<Path>SFX\AatroxHeavySlash1_27283788.wem</Path>
+						</File>
+						<File Id="926017927" Language="SFX">
+							<ShortName>AatroxHeavySlash3.wav</ShortName>
+							<Path>SFX\AatroxHeavySlash3_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2797714847" Name="AatroxLightSlash" ObjectPath="\Events\Default Work Unit\AatroxLightSlash">
+					<IncludedMemoryFiles>
+						<File Id="17341425" Language="SFX">
+							<ShortName>AatroxLightSlash3.wav</ShortName>
+							<Path>SFX\AatroxLightSlash3_27283788.wem</Path>
+						</File>
+						<File Id="539533868" Language="SFX">
+							<ShortName>AatroxLightSlash1.wav</ShortName>
+							<Path>SFX\AatroxLightSlash1_27283788.wem</Path>
+						</File>
+						<File Id="796507029" Language="SFX">
+							<ShortName>AatroxLightSlash2.wav</ShortName>
+							<Path>SFX\AatroxLightSlash2_27283788.wem</Path>
+						</File>
+						<File Id="1024975115" Language="SFX">
+							<ShortName>AatroxLightSlash4.wav</ShortName>
+							<Path>SFX\AatroxLightSlash4_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1837441485" Name="AatroxRainstorm" ObjectPath="\Events\Default Work Unit\AatroxRainstorm">
+					<IncludedMemoryFiles>
+						<File Id="614928239" Language="SFX">
+							<ShortName>AatroxRainstormStart.wav</ShortName>
+							<Path>SFX\AatroxRainstormStart_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1911371405" Name="AatroxStabbed" ObjectPath="\Events\Default Work Unit\AatroxStabbed">
+					<IncludedMemoryFiles>
+						<File Id="842671890" Language="SFX">
+							<ShortName>AatroxStabbed.wav</ShortName>
+							<Path>SFX\AatroxStabbed_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1949956469" Name="AatroxSwapGun" ObjectPath="\Events\Default Work Unit\AatroxSwapGun">
+					<IncludedMemoryFiles>
+						<File Id="976894342" Language="SFX">
+							<ShortName>AatroxSwapGun.wav</ShortName>
+							<Path>SFX\AatroxSwapGun_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1627088512" Name="AatroxSwapSword" ObjectPath="\Events\Default Work Unit\AatroxSwapSword">
+					<IncludedMemoryFiles>
+						<File Id="913989023" Language="SFX">
+							<ShortName>AatroxSwapSword.wav</ShortName>
+							<Path>SFX\AatroxSwapSword_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1748799039" Name="AatroxSwordSwing" ObjectPath="\Events\Default Work Unit\AatroxSwordSwing">
+					<IncludedMemoryFiles>
+						<File Id="280825185" Language="SFX">
+							<ShortName>AatroxSwing2.wav</ShortName>
+							<Path>SFX\AatroxSwing2_27283788.wem</Path>
+						</File>
+						<File Id="328690934" Language="SFX">
+							<ShortName>AatroxSwing3.wav</ShortName>
+							<Path>SFX\AatroxSwing3_27283788.wem</Path>
+						</File>
+						<File Id="345155110" Language="SFX">
+							<ShortName>AatroxSwing4.wav</ShortName>
+							<Path>SFX\AatroxSwing4_27283788.wem</Path>
+						</File>
+						<File Id="1004495452" Language="SFX">
+							<ShortName>AatroxSwing1.wav</ShortName>
+							<Path>SFX\AatroxSwing1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3140993980" Name="AatroxUppercut" ObjectPath="\Events\Default Work Unit\AatroxUppercut">
+					<IncludedMemoryFiles>
+						<File Id="1052160400" Language="SFX">
+							<ShortName>Uppercut.wav</ShortName>
+							<Path>SFX\Uppercut_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3497990890" Name="BladesOfTorment" ObjectPath="\Events\Default Work Unit\BladesOfTorment">
+					<IncludedMemoryFiles>
+						<File Id="610275919" Language="SFX">
+							<ShortName>BladesOfTorment2.wav</ShortName>
+							<Path>SFX\BladesOfTorment2_27283788.wem</Path>
+						</File>
+						<File Id="985324579" Language="SFX">
+							<ShortName>BladesOfTorment3.wav</ShortName>
+							<Path>SFX\BladesOfTorment3_27283788.wem</Path>
+						</File>
+						<File Id="1016142905" Language="SFX">
+							<ShortName>BladesOfTorment1.wav</ShortName>
+							<Path>SFX\BladesOfTorment1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1348282341" Name="DarkFlightDive" ObjectPath="\Events\Default Work Unit\DarkFlightDive">
+					<IncludedMemoryFiles>
+						<File Id="803824592" Language="SFX">
+							<ShortName>DarkFlightDescent.wav</ShortName>
+							<Path>SFX\DarkFlightDescent_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1586250677" Name="DarkFlightImpact" ObjectPath="\Events\Default Work Unit\DarkFlightImpact">
+					<IncludedMemoryFiles>
+						<File Id="16640339" Language="SFX">
+							<ShortName>DarkFlightImpact3.wav</ShortName>
+							<Path>SFX\DarkFlightImpact3_27283788.wem</Path>
+						</File>
+						<File Id="313152391" Language="SFX">
+							<ShortName>DarkFlightImpact1.wav</ShortName>
+							<Path>SFX\DarkFlightImpact1_27283788.wem</Path>
+						</File>
+						<File Id="531018473" Language="SFX">
+							<ShortName>DarkFlightImpact2.wav</ShortName>
+							<Path>SFX\DarkFlightImpact2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1536966621" Name="DarkFlightStart" ObjectPath="\Events\Default Work Unit\DarkFlightStart">
+					<IncludedMemoryFiles>
+						<File Id="575624045" Language="SFX">
+							<ShortName>DarkFlightLiftoff.wav</ShortName>
+							<Path>SFX\DarkFlightLiftoff_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2960115348" Name="MassacreCancel" ObjectPath="\Events\Default Work Unit\MassacreCancel">
+					<IncludedMemoryFiles>
+						<File Id="114737498" Language="SFX">
+							<ShortName>DTEnd.wav</ShortName>
+							<Path>SFX\DTEnd_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3870480863" Name="MassacreCast" ObjectPath="\Events\Default Work Unit\MassacreCast">
+					<IncludedMemoryFiles>
+						<File Id="26782254" Language="SFX">
+							<ShortName>Massacre1.wav</ShortName>
+							<Path>SFX\Massacre1_27283788.wem</Path>
+						</File>
+						<File Id="785327927" Language="SFX">
+							<ShortName>Massacre3.wav</ShortName>
+							<Path>SFX\Massacre3_27283788.wem</Path>
+						</File>
+						<File Id="824427568" Language="SFX">
+							<ShortName>Massacre2.wav</ShortName>
+							<Path>SFX\Massacre2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4088750100" Name="MassacreLoop" ObjectPath="\Events\Default Work Unit\MassacreLoop">
+					<IncludedMemoryFiles>
+						<File Id="983538909" Language="SFX">
+							<ShortName>MassacreLoop.wav</ShortName>
+							<Path>SFX\MassacreLoop_A267B9E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2210989100" Name="PriceToggle" ObjectPath="\Events\Default Work Unit\PriceToggle">
+					<IncludedMemoryFiles>
+						<File Id="311161037" Language="SFX">
+							<ShortName>PriceToggle.wav</ShortName>
+							<Path>SFX\PriceToggle_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1251923255" Name="ShadowStep" ObjectPath="\Events\Default Work Unit\ShadowStep">
+					<IncludedMemoryFiles>
+						<File Id="239713227" Language="SFX">
+							<ShortName>ShadowStep.wav</ShortName>
+							<Path>SFX\ShadowStep_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="78360149" Name="Stinger" ObjectPath="\Events\Default Work Unit\Stinger">
+					<IncludedMemoryFiles>
+						<File Id="22591869" Language="SFX">
+							<ShortName>Stinger.wav</ShortName>
+							<Path>SFX\Stinger_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="615573799" Name="StingerStart" ObjectPath="\Events\Default Work Unit\StingerStart">
+					<IncludedMemoryFiles>
+						<File Id="645053519" Language="SFX">
+							<ShortName>StingerStart.wav</ShortName>
+							<Path>SFX\StingerStart_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3903194821" Name="ThirstToggle" ObjectPath="\Events\Default Work Unit\ThirstToggle">
+					<IncludedMemoryFiles>
+						<File Id="322750236" Language="SFX">
+							<ShortName>ThirstToggle.wav</ShortName>
+							<Path>SFX\ThirstToggle_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2823802886" Language="SFX" Hash="1030173955">
+			<ObjectPath>\SoundBanks\Default Work Unit\Boris</ObjectPath>
+			<ShortName>Boris</ShortName>
+			<Path>Boris.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1637255462" Name="BorisBlastImpact" ObjectPath="\Events\BorisWorkUnit\BorisBlastImpact">
+					<IncludedMemoryFiles>
+						<File Id="37835249" Language="SFX">
+							<ShortName>BorisBlastImpact.wav</ShortName>
+							<Path>SFX\BorisBlastImpact_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3320145312" Name="BorisBlink" ObjectPath="\Events\BorisWorkUnit\BorisBlink">
+					<IncludedMemoryFiles>
+						<File Id="415916105" Language="SFX">
+							<ShortName>BorisBlink.wav</ShortName>
+							<Path>SFX\BorisBlink_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1324282966" Name="BorisDash" ObjectPath="\Events\BorisWorkUnit\BorisDash">
+					<IncludedMemoryFiles>
+						<File Id="353831233" Language="SFX">
+							<ShortName>BorisDash.wav</ShortName>
+							<Path>SFX\BorisDash_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="553436980" Name="BorisFireBlast" ObjectPath="\Events\BorisWorkUnit\BorisFireBlast">
+					<IncludedMemoryFiles>
+						<File Id="149165930" Language="SFX">
+							<ShortName>BorisFireBlast.wav</ShortName>
+							<Path>SFX\BorisFireBlast_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4284444145" Name="BorisHit" ObjectPath="\Events\BorisWorkUnit\BorisHit">
+					<IncludedMemoryFiles>
+						<File Id="685791364" Language="SFX">
+							<ShortName>BorisStrike2.wav</ShortName>
+							<Path>SFX\BorisStrike2_27283788.wem</Path>
+						</File>
+						<File Id="919710346" Language="SFX">
+							<ShortName>BorisStrike1.wav</ShortName>
+							<Path>SFX\BorisStrike1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="747104894" Name="BorisJudgementEnd" ObjectPath="\Events\BorisWorkUnit\BorisJudgementEnd">
+					<IncludedMemoryFiles>
+						<File Id="664151299" Language="SFX">
+							<ShortName>BorisJudgementEnd.wav</ShortName>
+							<Path>SFX\BorisJudgementEnd_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2744808464" Name="BorisJudgementExplosion" ObjectPath="\Events\BorisWorkUnit\BorisJudgementExplosion">
+					<IncludedMemoryFiles>
+						<File Id="530669855" Language="SFX">
+							<ShortName>JudgementExplosion1.wav</ShortName>
+							<Path>SFX\JudgementExplosion1_27283788.wem</Path>
+						</File>
+						<File Id="832157256" Language="SFX">
+							<ShortName>JudgementExplosion2.wav</ShortName>
+							<Path>SFX\JudgementExplosion2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2158327637" Name="BorisJudgementStart" ObjectPath="\Events\BorisWorkUnit\BorisJudgementStart">
+					<IncludedMemoryFiles>
+						<File Id="746483408" Language="SFX">
+							<ShortName>BorisJudgementStart.wav</ShortName>
+							<Path>SFX\BorisJudgementStart_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2719356048" Name="BorisLoop" ObjectPath="\Events\BorisWorkUnit\BorisLoop">
+					<IncludedMemoryFiles>
+						<File Id="858302240" Language="SFX">
+							<ShortName>BorisLoop.wav</ShortName>
+							<Path>SFX\BorisLoop_A267B9E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1151721187" Name="BorisSpawn" ObjectPath="\Events\BorisWorkUnit\BorisSpawn">
+					<IncludedMemoryFiles>
+						<File Id="245978858" Language="SFX">
+							<ShortName>BorisSpawn.wav</ShortName>
+							<Path>SFX\BorisSpawn_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3118365252" Name="BorisSwing" ObjectPath="\Events\BorisWorkUnit\BorisSwing">
+					<IncludedMemoryFiles>
+						<File Id="353697088" Language="SFX">
+							<ShortName>BorisSwing4.wav</ShortName>
+							<Path>SFX\BorisSwing4_27283788.wem</Path>
+						</File>
+						<File Id="382743718" Language="SFX">
+							<ShortName>BorisSwing3.wav</ShortName>
+							<Path>SFX\BorisSwing3_27283788.wem</Path>
+						</File>
+						<File Id="491427509" Language="SFX">
+							<ShortName>BorisSwing1.wav</ShortName>
+							<Path>SFX\BorisSwing1_27283788.wem</Path>
+						</File>
+						<File Id="516310701" Language="SFX">
+							<ShortName>BorisSwing5.wav</ShortName>
+							<Path>SFX\BorisSwing5_27283788.wem</Path>
+						</File>
+						<File Id="992313240" Language="SFX">
+							<ShortName>BorisSwing2.wav</ShortName>
+							<Path>SFX\BorisSwing2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2842076084" Name="BorisThrust" ObjectPath="\Events\BorisWorkUnit\BorisThrust">
+					<IncludedMemoryFiles>
+						<File Id="489841672" Language="SFX">
+							<ShortName>BorisPassiveSwing.wav</ShortName>
+							<Path>SFX\BorisPassiveSwing_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4192039835" Name="BorisThrustHit" ObjectPath="\Events\BorisWorkUnit\BorisThrustHit">
+					<IncludedMemoryFiles>
+						<File Id="639155463" Language="SFX">
+							<ShortName>BorisPassiveStrike.wav</ShortName>
+							<Path>SFX\BorisPassiveStrike_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="30023572" Name="BorisUltReady" ObjectPath="\Events\BorisWorkUnit\BorisUltReady">
+					<IncludedMemoryFiles>
+						<File Id="199862873" Language="SFX">
+							<ShortName>BorisUltReady.wav</ShortName>
+							<Path>SFX\BorisUltReady_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3965399116" Language="SFX" Hash="169363223">
+			<ObjectPath>\SoundBanks\Default Work Unit\Twitch</ObjectPath>
+			<ShortName>Twitch</ShortName>
+			<Path>Twitch.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3640829920" Name="TwitchAmbush" ObjectPath="\Events\TwitchWorkUnit\TwitchAmbush">
+					<IncludedMemoryFiles>
+						<File Id="661173413" Language="SFX">
+							<ShortName>TwitchUltiCrossbow.wav</ShortName>
+							<Path>SFX\TwitchUltiCrossbow_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="935941118" Name="TwitchAmbushGun" ObjectPath="\Events\TwitchWorkUnit\TwitchAmbushGun">
+					<IncludedMemoryFiles>
+						<File Id="241558621" Language="SFX">
+							<ShortName>TwitchUltiTommyGun.wav</ShortName>
+							<Path>SFX\TwitchUltiTommyGun_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2442490128" Name="TwitchAttack" ObjectPath="\Events\TwitchWorkUnit\TwitchAttack">
+					<IncludedMemoryFiles>
+						<File Id="127561323" Language="SFX">
+							<ShortName>TwitchAttack4.wav</ShortName>
+							<Path>SFX\TwitchAttack4_27283788.wem</Path>
+						</File>
+						<File Id="138633486" Language="SFX">
+							<ShortName>TwitchAttack1.wav</ShortName>
+							<Path>SFX\TwitchAttack1_27283788.wem</Path>
+						</File>
+						<File Id="163620772" Language="SFX">
+							<ShortName>TwitchAttack5.wav</ShortName>
+							<Path>SFX\TwitchAttack5_27283788.wem</Path>
+						</File>
+						<File Id="766147911" Language="SFX">
+							<ShortName>TwitchAttack3.wav</ShortName>
+							<Path>SFX\TwitchAttack3_27283788.wem</Path>
+						</File>
+						<File Id="772269203" Language="SFX">
+							<ShortName>TwitchAttack6.wav</ShortName>
+							<Path>SFX\TwitchAttack6_27283788.wem</Path>
+						</File>
+						<File Id="959213400" Language="SFX">
+							<ShortName>TwitchAttack2.wav</ShortName>
+							<Path>SFX\TwitchAttack2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="452898961" Name="TwitchAttackBazooka" ObjectPath="\Events\TwitchWorkUnit\TwitchAttackBazooka">
+					<IncludedMemoryFiles>
+						<File Id="1061059281" Language="SFX">
+							<ShortName>TwitchBazookaFire.wav</ShortName>
+							<Path>SFX\TwitchBazookaFire_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4002823662" Name="TwitchAttackGun" ObjectPath="\Events\TwitchWorkUnit\TwitchAttackGun">
+					<IncludedMemoryFiles>
+						<File Id="43226975" Language="SFX">
+							<ShortName>TwitchGunshot4.wav</ShortName>
+							<Path>SFX\TwitchGunshot4_27283788.wem</Path>
+						</File>
+						<File Id="117603240" Language="SFX">
+							<ShortName>TwitchGunshot3.wav</ShortName>
+							<Path>SFX\TwitchGunshot3_27283788.wem</Path>
+						</File>
+						<File Id="167205796" Language="SFX">
+							<ShortName>TwitchGunshot2.wav</ShortName>
+							<Path>SFX\TwitchGunshot2_27283788.wem</Path>
+						</File>
+						<File Id="438713304" Language="SFX">
+							<ShortName>TwitchGunshot1.wav</ShortName>
+							<Path>SFX\TwitchGunshot1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636341475" Name="TwitchAttackGunLaser" ObjectPath="\Events\TwitchWorkUnit\TwitchAttackGunLaser">
+					<IncludedMemoryFiles>
+						<File Id="343048134" Language="SFX">
+							<ShortName>TwitchUltiGunAttack4.wav</ShortName>
+							<Path>SFX\TwitchUltiGunAttack4_27283788.wem</Path>
+						</File>
+						<File Id="705080399" Language="SFX">
+							<ShortName>TwitchUltiGunAttack3.wav</ShortName>
+							<Path>SFX\TwitchUltiGunAttack3_27283788.wem</Path>
+						</File>
+						<File Id="761219105" Language="SFX">
+							<ShortName>TwitchUltiGunAttack1.wav</ShortName>
+							<Path>SFX\TwitchUltiGunAttack1_27283788.wem</Path>
+						</File>
+						<File Id="953523465" Language="SFX">
+							<ShortName>TwitchUltiGunAttack2.wav</ShortName>
+							<Path>SFX\TwitchUltiGunAttack2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2893976081" Name="TwitchAttackLaser" ObjectPath="\Events\TwitchWorkUnit\TwitchAttackLaser">
+					<IncludedMemoryFiles>
+						<File Id="368418753" Language="SFX">
+							<ShortName>TwitchUltiAttack3.wav</ShortName>
+							<Path>SFX\TwitchUltiAttack3_27283788.wem</Path>
+						</File>
+						<File Id="415596200" Language="SFX">
+							<ShortName>TwitchUltiAttack1.wav</ShortName>
+							<Path>SFX\TwitchUltiAttack1_27283788.wem</Path>
+						</File>
+						<File Id="643359713" Language="SFX">
+							<ShortName>TwitchUltiAttack2.wav</ShortName>
+							<Path>SFX\TwitchUltiAttack2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2846195716" Name="TwitchAttackStart" ObjectPath="\Events\TwitchWorkUnit\TwitchAttackStart">
+					<IncludedMemoryFiles>
+						<File Id="169017549" Language="SFX">
+							<ShortName>TwitchAttackStart3.wav</ShortName>
+							<Path>SFX\TwitchAttackStart3_27283788.wem</Path>
+						</File>
+						<File Id="333266560" Language="SFX">
+							<ShortName>TwitchAttackStart2.wav</ShortName>
+							<Path>SFX\TwitchAttackStart2_27283788.wem</Path>
+						</File>
+						<File Id="492277882" Language="SFX">
+							<ShortName>TwitchAttackStart1.wav</ShortName>
+							<Path>SFX\TwitchAttackStart1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="20413905" Name="TwitchCaskHit" ObjectPath="\Events\TwitchWorkUnit\TwitchCaskHit">
+					<IncludedMemoryFiles>
+						<File Id="43439696" Language="SFX">
+							<ShortName>TwitchCaskHit1.wav</ShortName>
+							<Path>SFX\TwitchCaskHit1_27283788.wem</Path>
+						</File>
+						<File Id="60794382" Language="SFX">
+							<ShortName>TwitchCaskHit2.wav</ShortName>
+							<Path>SFX\TwitchCaskHit2_27283788.wem</Path>
+						</File>
+						<File Id="155846483" Language="SFX">
+							<ShortName>TwitchCaskHit3.wav</ShortName>
+							<Path>SFX\TwitchCaskHit3_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3994760590" Name="TwitchCaskStart" ObjectPath="\Events\TwitchWorkUnit\TwitchCaskStart">
+					<IncludedMemoryFiles>
+						<File Id="169306667" Language="SFX">
+							<ShortName>TwitchThrowCask2.wav</ShortName>
+							<Path>SFX\TwitchThrowCask2_27283788.wem</Path>
+						</File>
+						<File Id="802051571" Language="SFX">
+							<ShortName>TwitchThrowCask3.wav</ShortName>
+							<Path>SFX\TwitchThrowCask3_27283788.wem</Path>
+						</File>
+						<File Id="938987272" Language="SFX">
+							<ShortName>TwitchThrowCask1.wav</ShortName>
+							<Path>SFX\TwitchThrowCask1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4271081840" Name="TwitchCharge" ObjectPath="\Events\TwitchWorkUnit\TwitchCharge">
+					<IncludedMemoryFiles>
+						<File Id="1008247498" Language="SFX">
+							<ShortName>TwitchChargeBazooka.wav</ShortName>
+							<Path>SFX\TwitchChargeBazooka_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1177580875" Name="TwitchCheese" ObjectPath="\Events\TwitchWorkUnit\TwitchCheese">
+					<IncludedMemoryFiles>
+						<File Id="619686428" Language="SFX">
+							<ShortName>TwitchCheese.wav</ShortName>
+							<Path>SFX\TwitchCheese_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1400644867" Name="TwitchEnterStealth" ObjectPath="\Events\TwitchWorkUnit\TwitchEnterStealth">
+					<IncludedMemoryFiles>
+						<File Id="815376701" Language="SFX">
+							<ShortName>TwitchEnterStealth.wav</ShortName>
+							<Path>SFX\TwitchEnterStealth_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3045474585" Name="TwitchExitStealth" ObjectPath="\Events\TwitchWorkUnit\TwitchExitStealth">
+					<IncludedMemoryFiles>
+						<File Id="89418204" Language="SFX">
+							<ShortName>TwitchExitStealth.wav</ShortName>
+							<Path>SFX\TwitchExitStealth_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3600341516" Name="TwitchExpunge" ObjectPath="\Events\TwitchWorkUnit\TwitchExpunge">
+					<IncludedMemoryFiles>
+						<File Id="43748719" Language="SFX">
+							<ShortName>TwitchExpunge2.wav</ShortName>
+							<Path>SFX\TwitchExpunge2_27283788.wem</Path>
+						</File>
+						<File Id="526827144" Language="SFX">
+							<ShortName>TwitchExpunge4.wav</ShortName>
+							<Path>SFX\TwitchExpunge4_27283788.wem</Path>
+						</File>
+						<File Id="989768429" Language="SFX">
+							<ShortName>TwitchExpunge3.wav</ShortName>
+							<Path>SFX\TwitchExpunge3_27283788.wem</Path>
+						</File>
+						<File Id="997314084" Language="SFX">
+							<ShortName>TwitchExpunge1.wav</ShortName>
+							<Path>SFX\TwitchExpunge1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="640395267" Name="TwitchExpungeHit" ObjectPath="\Events\TwitchWorkUnit\TwitchExpungeHit">
+					<IncludedMemoryFiles>
+						<File Id="76954664" Language="SFX">
+							<ShortName>TwitchExpungeHit2.wav</ShortName>
+							<Path>SFX\TwitchExpungeHit2_27283788.wem</Path>
+						</File>
+						<File Id="772969943" Language="SFX">
+							<ShortName>TwitchExpungeHit1.wav</ShortName>
+							<Path>SFX\TwitchExpungeHit1_27283788.wem</Path>
+						</File>
+						<File Id="934576671" Language="SFX">
+							<ShortName>TwitchExpungeHit3.wav</ShortName>
+							<Path>SFX\TwitchExpungeHit3_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2186240790" Name="TwitchFireShotgun" ObjectPath="\Events\TwitchWorkUnit\TwitchFireShotgun">
+					<IncludedMemoryFiles>
+						<File Id="188564029" Language="SFX">
+							<ShortName>TwitchFireShotgun1.wav</ShortName>
+							<Path>SFX\TwitchFireShotgun1_27283788.wem</Path>
+						</File>
+						<File Id="453033364" Language="SFX">
+							<ShortName>TwitchFireShotgun2.wav</ShortName>
+							<Path>SFX\TwitchFireShotgun2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="362784462" Name="TwitchGrenadeStart" ObjectPath="\Events\TwitchWorkUnit\TwitchGrenadeStart">
+					<IncludedMemoryFiles>
+						<File Id="837752566" Language="SFX">
+							<ShortName>TwitchGrenadeEquip.wav</ShortName>
+							<Path>SFX\TwitchGrenadeEquip_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3063829837" Name="TwitchGrenadeTick" ObjectPath="\Events\TwitchWorkUnit\TwitchGrenadeTick">
+					<IncludedMemoryFiles>
+						<File Id="47380120" Language="SFX">
+							<ShortName>TwitchGrenadeTick1.wav</ShortName>
+							<Path>SFX\TwitchGrenadeTick1_27283788.wem</Path>
+						</File>
+						<File Id="172964595" Language="SFX">
+							<ShortName>TwitchGrenadeTick3.wav</ShortName>
+							<Path>SFX\TwitchGrenadeTick3_27283788.wem</Path>
+						</File>
+						<File Id="307593731" Language="SFX">
+							<ShortName>TwitchGrenadeTick2.wav</ShortName>
+							<Path>SFX\TwitchGrenadeTick2_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="827627226" Name="TwitchHeal" ObjectPath="\Events\TwitchWorkUnit\TwitchHeal">
+					<IncludedMemoryFiles>
+						<File Id="225868745" Language="SFX">
+							<ShortName>TwitchHeal.wav</ShortName>
+							<Path>SFX\TwitchHeal_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3530745881" Name="TwitchMenu" ObjectPath="\Events\TwitchWorkUnit\TwitchMenu">
+					<IncludedMemoryFiles>
+						<File Id="902005407" Language="SFX">
+							<ShortName>TwitchMenu.wav</ShortName>
+							<Path>SFX\TwitchMenu_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3114958" Name="TwitchThrowCask" ObjectPath="\Events\TwitchWorkUnit\TwitchThrowCask">
+					<IncludedMemoryFiles>
+						<File Id="54101265" Language="SFX">
+							<ShortName>TwitchCaskLaunch3.wav</ShortName>
+							<Path>SFX\TwitchCaskLaunch3_27283788.wem</Path>
+						</File>
+						<File Id="243694532" Language="SFX">
+							<ShortName>TwitchCaskLaunch2.wav</ShortName>
+							<Path>SFX\TwitchCaskLaunch2_27283788.wem</Path>
+						</File>
+						<File Id="393980980" Language="SFX">
+							<ShortName>TwitchCaskLaunch1.wav</ShortName>
+							<Path>SFX\TwitchCaskLaunch1_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1581325182" Name="TwitchThrowGrenade" ObjectPath="\Events\TwitchWorkUnit\TwitchThrowGrenade">
+					<IncludedMemoryFiles>
+						<File Id="919136922" Language="SFX">
+							<ShortName>TwitchGrenadeThrow.wav</ShortName>
+							<Path>SFX\TwitchGrenadeThrow_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="4250022846" Language="SFX" Hash="1850049643">
+			<ObjectPath>\SoundBanks\Default Work Unit\MinerV2</ObjectPath>
+			<ShortName>MinerV2</ShortName>
+			<Path>MinerV2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2979910065" Name="MinerHit" ObjectPath="\Events\MinerWorkUnit\MinerHit">
+					<IncludedMemoryFiles>
+						<File Id="749682890" Language="SFX">
+							<ShortName>MinerHit2.wav</ShortName>
+							<Path>SFX\MinerHit2_27283788.wem</Path>
+						</File>
+						<File Id="753832671" Language="SFX">
+							<ShortName>MinerHit1.wav</ShortName>
+							<Path>SFX\MinerHit1_27283788.wem</Path>
+						</File>
+						<File Id="950976251" Language="SFX">
+							<ShortName>MinerHit3.wav</ShortName>
+							<Path>SFX\MinerHit3_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2833975406" Name="MinerSelect" ObjectPath="\Events\MinerWorkUnit\MinerSelect">
+					<IncludedMemoryFiles>
+						<File Id="701218497" Language="SFX">
+							<ShortName>MinerSelect.wav</ShortName>
+							<Path>SFX\MinerSelect_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1950796548" Name="MinerSwing" ObjectPath="\Events\MinerWorkUnit\MinerSwing">
+					<IncludedMemoryFiles>
+						<File Id="33834541" Language="SFX">
+							<ShortName>MinerSwing2.wav</ShortName>
+							<Path>SFX\MinerSwing2_27283788.wem</Path>
+						</File>
+						<File Id="174201832" Language="SFX">
+							<ShortName>MinerSwing1.wav</ShortName>
+							<Path>SFX\MinerSwing1_27283788.wem</Path>
+						</File>
+						<File Id="338996033" Language="SFX">
+							<ShortName>MinerSwing3.wav</ShortName>
+							<Path>SFX\MinerSwing3_27283788.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

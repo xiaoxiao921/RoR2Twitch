@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="MinerWorkUnit" ID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MinerSwing" ID="{1F3734FC-448A-4DC6-885E-1EF1CDF240A1}">
+					<ChildrenList>
+						<Action Name="" ID="{D894F16F-D6E4-4BE0-A175-C5F9AB272D1B}" ShortID="301435820">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinerSwing" ID="{FD07ADD5-B6C1-4C93-A082-007FBBCA759F}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MinerHit" ID="{1C75DC58-8E2D-4DF8-843A-33E76F93EBCB}">
+					<ChildrenList>
+						<Action Name="" ID="{9F8039EE-0DF1-4CFF-997F-056B398261DB}" ShortID="433996415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinerHit" ID="{8BA1E421-132C-4FAF-A84E-22C6745216E6}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MinerSelect" ID="{B33D7DB4-27A5-4E13-89A2-609299AA843C}">
+					<ChildrenList>
+						<Action Name="" ID="{5E3F7B2B-5C74-48D4-90EF-4E2F5B163C63}" ShortID="48190527">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinerSelect" ID="{48DFF3BA-083E-4BA4-BBBF-6C36CC0A595A}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

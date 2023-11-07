@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	30023572	BorisUltReady			\BorisWorkUnit\BorisUltReady	
+	553436980	BorisFireBlast			\BorisWorkUnit\BorisFireBlast	
+	747104894	BorisJudgementEnd			\BorisWorkUnit\BorisJudgementEnd	
+	1151721187	BorisSpawn			\BorisWorkUnit\BorisSpawn	
+	1324282966	BorisDash			\BorisWorkUnit\BorisDash	
+	1637255462	BorisBlastImpact			\BorisWorkUnit\BorisBlastImpact	
+	2158327637	BorisJudgementStart			\BorisWorkUnit\BorisJudgementStart	
+	2719356048	BorisLoop			\BorisWorkUnit\BorisLoop	
+	2744808464	BorisJudgementExplosion			\BorisWorkUnit\BorisJudgementExplosion	
+	2842076084	BorisThrust			\BorisWorkUnit\BorisThrust	
+	3118365252	BorisSwing			\BorisWorkUnit\BorisSwing	
+	3320145312	BorisBlink			\BorisWorkUnit\BorisBlink	
+	4192039835	BorisThrustHit			\BorisWorkUnit\BorisThrustHit	
+	4284444145	BorisHit			\BorisWorkUnit\BorisHit	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+Effect plug-ins	ID	Name	Type				Notes
+	701992531	Wwise Time Stretch (Custom)	Wwise Time Stretch			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37835249	BorisBlastImpact	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisBlastImpact_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisBlastImpact		0
+	149165930	BorisFireBlast	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisFireBlast_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisFireBlast		0
+	199862873	BorisUltReady	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisUltReady_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisUltReady		0
+	245978858	BorisSpawn	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSpawn_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSpawn		0
+	353697088	BorisSwing4	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSwing4_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSwing\BorisSwing4		0
+	353831233	BorisDash	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisDash_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisDash		0
+	382743718	BorisSwing3	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSwing3_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSwing\BorisSwing3		0
+	415916105	BorisBlink	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisBlink_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisBlink		0
+	489841672	BorisPassiveSwing	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisPassiveSwing_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisPassiveSwing		0
+	491427509	BorisSwing1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSwing1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSwing\BorisSwing1		0
+	516310701	BorisSwing5	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSwing5_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSwing\BorisSwing5		0
+	530669855	JudgementExplosion1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\JudgementExplosion1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\JudgementExplosion\JudgementExplosion1		0
+	639155463	BorisPassiveStrike	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisPassiveStrike_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisPassiveStrike		0
+	664151299	BorisJudgementEnd	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisJudgementEnd_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisJudgementEnd		0
+	685791364	BorisStrike2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisStrike2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisHit\BorisStrike2		0
+	746483408	BorisJudgementStart	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisJudgementStart_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisJudgementStart		0
+	832157256	JudgementExplosion2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\JudgementExplosion2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\JudgementExplosion\JudgementExplosion2		0
+	858302240	BorisLoop	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisLoop_A267B9E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisLoop		0
+	919710346	BorisStrike1	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisStrike1_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisHit\BorisStrike1		0
+	992313240	BorisSwing2	C:\Users\lucky\Desktop\Aatrox\.cache\Windows\SFX\BorisSwing2_27283788.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx Mixer\BorisSFX\BorisSwing\BorisSwing2		0
+

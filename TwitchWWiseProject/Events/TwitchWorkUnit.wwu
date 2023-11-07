@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="TwitchWorkUnit" ID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TwitchAttack" ID="{9AAAF408-9039-4D0C-8337-0D09CA3D917B}">
+					<ChildrenList>
+						<Action Name="" ID="{CD9C1CDD-3DD6-442C-965C-F37703C4AFA6}" ShortID="893776760">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchAttack" ID="{F31AC6E7-8899-4C31-A037-4C4A2D40D54B}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAttackStart" ID="{E118A2AC-727B-42A9-B1F2-4D8DFF7B4DFE}">
+					<ChildrenList>
+						<Action Name="" ID="{1210E4E2-0E68-4FBB-9F39-6C36DC47BA4B}" ShortID="998913647">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchAttackStart" ID="{2BC21602-2A1E-4D90-9E73-09D30E9FB5EA}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAttackGun" ID="{ECED7E53-13C8-4FC3-B280-E272C04D90B8}">
+					<ChildrenList>
+						<Action Name="" ID="{F70C1321-1B6A-4663-A4B5-D59D84BE53A3}" ShortID="845674619">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchGunshot" ID="{2E081CFB-6595-4FAA-91DF-DE70B12B1ACE}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAttackLaser" ID="{CB57C3A6-E080-4F05-8B05-A27584C799C0}">
+					<ChildrenList>
+						<Action Name="" ID="{1E29DEDF-0615-4BAB-9DE6-7AB892E8F111}" ShortID="125822317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchUltiAttack" ID="{ABF85ED6-BD34-4E1C-8359-0F7CA408550E}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAttackBazooka" ID="{A2B0B4EA-9621-4974-884A-79D30778153C}">
+					<ChildrenList>
+						<Action Name="" ID="{FB2C5B72-CF13-42CA-A783-A07C116D3B9A}" ShortID="283246180">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchBazookaFire" ID="{136FBA71-F5F2-462F-9A7F-1E830F99E60A}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchCharge" ID="{50060B5F-81C5-4C10-9A50-38B635A5885D}">
+					<ChildrenList>
+						<Action Name="" ID="{C858A0EA-5F38-45E9-A1C4-D78FE5B3E1DA}" ShortID="115855802">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchChargeBazooka" ID="{A7524349-50A7-4E1E-BDBB-CD6A73F05D40}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchExpunge" ID="{B8DAB3B8-4CEC-4F06-8A4A-C4259220A5CF}">
+					<ChildrenList>
+						<Action Name="" ID="{B74CC041-2712-4816-B97A-C4CD6319E5EF}" ShortID="254076730">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchExpunge" ID="{B41BADC2-B6FF-45D1-AAA4-9B3DB8FE378A}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchEnterStealth" ID="{93A656A4-3D6F-4785-9C19-81D8169997D9}">
+					<ChildrenList>
+						<Action Name="" ID="{0C72BAFD-B69B-4AB0-89A0-D52C68A3C505}" ShortID="393906686">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchEnterStealth" ID="{E8448FA5-7389-4092-B770-5E6841E0CEB9}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchExitStealth" ID="{8404A829-53E2-434B-9F2C-F7B3EE411B99}">
+					<ChildrenList>
+						<Action Name="" ID="{4A58456E-3B24-473E-BF34-EF0F979F16C1}" ShortID="249666919">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchExitStealth" ID="{2F8F94E8-F98F-442E-84BA-273C3963398E}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchExpungeHit" ID="{E68A19FA-5202-4985-B728-2E6E571C83C9}">
+					<ChildrenList>
+						<Action Name="" ID="{4C5874C5-1A8C-4E34-AE39-BD3664C75025}" ShortID="884322738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchExpungeHit" ID="{F5DB7216-454B-451D-9103-1DF41C2BF072}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchFireShotgun" ID="{12634D3B-20B7-47C2-A010-74A4033D5B1E}">
+					<ChildrenList>
+						<Action Name="" ID="{89AEEA45-8E9F-4C4F-89A3-3277427BD3C0}" ShortID="960637359">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchFireShotgun" ID="{26E93392-BF9D-45AA-A648-69E04E6F2BE0}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchThrowCask" ID="{929906D7-3238-4085-B746-FA434D5D31C9}">
+					<ChildrenList>
+						<Action Name="" ID="{8B12A35D-69DB-44E5-9081-115DCF299D72}" ShortID="519242823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchCaskLaunch" ID="{90F01504-244C-43EE-AF67-80A04F3845B4}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchThrowGrenade" ID="{D3716BC0-8445-4E3B-8ABE-67D114D51A21}">
+					<ChildrenList>
+						<Action Name="" ID="{F0BDF4A8-1B2B-4FBA-BE62-1224322DA17A}" ShortID="316298984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchGrenadeThrow" ID="{3C4688CD-DB9D-40FC-9165-3989D8EE41D8}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchGrenadeStart" ID="{F2538744-EF89-41EE-A654-7478BB210091}">
+					<ChildrenList>
+						<Action Name="" ID="{3A6B40B8-C78D-48DC-82BB-15A92CDC8154}" ShortID="223254694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchGrenadeEquip" ID="{913D5C0C-7841-47E4-8208-0E848162A730}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchCaskStart" ID="{6A772EE1-64F3-404E-99EA-1C94ED8A0173}">
+					<ChildrenList>
+						<Action Name="" ID="{9E4B2C45-4932-4A21-B8D0-7A4C82C8428C}" ShortID="9840221">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchThrowCask" ID="{5C0B4243-78E6-4ECC-9B74-DB9F6FCC32B6}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchCaskHit" ID="{EC22A1D8-1838-4588-8EFE-F3F40A6EBC5E}">
+					<ChildrenList>
+						<Action Name="" ID="{C9081103-D409-469C-B9AE-0B449A64E8AF}" ShortID="376023215">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchCaskHit" ID="{8FF009E8-7503-4DF6-B496-BA5701A7FEB2}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchMenu" ID="{758EAC48-B2B2-4CAF-83E4-DA625FC9E674}">
+					<ChildrenList>
+						<Action Name="" ID="{3C60BF68-4D28-44C6-813D-3483BF08502E}" ShortID="346481158">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchMenu" ID="{7838E35B-1016-48D8-941C-B855203E75D6}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchHeal" ID="{0DF4E21F-035D-4E90-90EA-06A77FAC1ADE}">
+					<ChildrenList>
+						<Action Name="" ID="{0C77DB10-7086-43C1-91E8-C97E210E41D3}" ShortID="965717845">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchHeal" ID="{2F1095B3-426B-4696-9740-DD9B200618A3}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchCheese" ID="{2A98D89F-06C7-4C96-9BD1-B1A702C57250}">
+					<ChildrenList>
+						<Action Name="" ID="{DA2AB093-54E1-4D61-B160-F66429011EC1}" ShortID="776883442">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchCheese" ID="{D1D93181-8994-4C3D-876F-2B870351D106}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchGrenadeTick" ID="{AABC9A59-2E37-45FD-8966-68E2971E58B2}">
+					<ChildrenList>
+						<Action Name="" ID="{D27EF5C8-7CBE-4815-9E2E-780F76D2609C}" ShortID="142748110">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchGrenadeTick" ID="{E2708845-0CE2-4765-B582-153117B3E1E7}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAmbush" ID="{66D1B0B3-37FA-46D9-979D-BB887F2F5FC1}">
+					<ChildrenList>
+						<Action Name="" ID="{38A23ED9-5390-4674-BC27-3BE3A0309F6B}" ShortID="324006643">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchUltiCrossbow" ID="{438E4596-E630-4687-8641-BE23414AF366}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAmbushGun" ID="{B6C36B16-7A3B-4657-97F1-88D542BF4811}">
+					<ChildrenList>
+						<Action Name="" ID="{94656E0B-E0B1-4198-BA50-2E579B249065}" ShortID="449908986">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchUltiTommyGun" ID="{7093C8B1-7FCD-45F7-A247-EEA8C3576B24}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TwitchAttackGunLaser" ID="{64177780-4CAB-40CE-9668-2080E1404022}">
+					<ChildrenList>
+						<Action Name="" ID="{3977029E-12D7-47D1-B7A8-5DCC5D0CFE66}" ShortID="39917034">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwitchUltiAttackGun" ID="{AB8135FA-9F78-4EC2-9C5F-5B7D87A67244}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

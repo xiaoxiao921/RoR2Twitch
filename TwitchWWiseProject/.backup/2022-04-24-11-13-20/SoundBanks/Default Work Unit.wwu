@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D7E37DC-F5B6-4BF0-8BB8-B985F93A0E21}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5D7E37DC-F5B6-4BF0-8BB8-B985F93A0E21}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Aatrox" ID="{FCC7C2FB-1D37-4979-91E3-6116575CC398}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AatroxChargeShot" ID="{A4CCDDA7-B2BF-402E-807B-A5A88AA06287}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxRainstorm" ID="{152DE29D-D2ED-41C5-B883-1E4D0134F7D6}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ShadowStep" ID="{A4ED5508-D58F-4332-8B82-70476DDE2320}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxFlurryEnd" ID="{2889EC9B-4A52-4431-AE1A-A94909578918}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stinger" ID="{16ACA4F5-C0CF-444C-A911-FD5A65CC4043}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MassacreCancel" ID="{842896A2-8881-44D8-83FF-BA8D235A8476}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxSwapSword" ID="{CCEE056C-125D-4569-B831-DA1F6255B8AF}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ThirstToggle" ID="{5C9EFDC1-6BDE-45FB-912D-4F088A1A2F6A}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxDownslash" ID="{BF399EF2-061B-4615-A0A1-D26F749EDFD9}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DarkFlightDive" ID="{D361922D-F902-466A-BAC7-E5A49C4D6D5E}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxFlurryStart" ID="{7AD6D628-5C3D-4670-A97C-3BAEF0581245}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BladesOfTorment" ID="{2A5B39C5-BA07-4672-A196-D24A83EC1A1B}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxSwapGun" ID="{B23717D3-2C8B-47A6-8F82-CECDD28569AC}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PriceToggle" ID="{97F55CDD-4F8F-48AA-9653-05C6FF79D53D}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxGunshot" ID="{2214B4B1-80CE-48BC-A64F-7C0A106D15D9}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DarkFlightImpact" ID="{A330EF14-1826-48BE-A4EB-E05519AE9026}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MassacreLoop" ID="{A354EFB1-E61D-48D8-805F-5688C42B4AB0}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxSwordSwing" ID="{00E16105-5121-49A4-BE97-1D1CF6351DAC}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxStabbed" ID="{9F415908-1308-4A6A-BE6E-7ABFE52DF148}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MassacreCast" ID="{9303F146-AD35-4A75-8B90-A807AE88B43C}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxUppercut" ID="{18BA2225-147A-4B0A-844E-E721C91581BD}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StingerStart" ID="{67D829D0-0B74-4B4D-8B37-F52F4944E931}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxBigHeal" ID="{0350A080-6628-4CD8-9964-261C188CBD88}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxHeavySlash" ID="{97B463A9-CC6F-4D10-87DC-D0A76C48482C}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AatroxLightSlash" ID="{ADF7FACA-6F37-4EB8-8BC7-CD3A8A18F4E1}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DarkFlightStart" ID="{2E0AA3E8-86C3-4F85-B913-4DBB78777865}" WorkUnitID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Twitch" ID="{3D90432C-3E14-43FF-A64B-B240E9977B7A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TwitchCaskStart" ID="{6A772EE1-64F3-404E-99EA-1C94ED8A0173}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchThrowCask" ID="{929906D7-3238-4085-B746-FA434D5D31C9}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttackGunLaser" ID="{64177780-4CAB-40CE-9668-2080E1404022}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchGrenadeStart" ID="{F2538744-EF89-41EE-A654-7478BB210091}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttackStart" ID="{E118A2AC-727B-42A9-B1F2-4D8DFF7B4DFE}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchExitStealth" ID="{8404A829-53E2-434B-9F2C-F7B3EE411B99}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchCaskHit" ID="{EC22A1D8-1838-4588-8EFE-F3F40A6EBC5E}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchGrenadeTick" ID="{AABC9A59-2E37-45FD-8966-68E2971E58B2}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAmbushGun" ID="{B6C36B16-7A3B-4657-97F1-88D542BF4811}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAmbush" ID="{66D1B0B3-37FA-46D9-979D-BB887F2F5FC1}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchEnterStealth" ID="{93A656A4-3D6F-4785-9C19-81D8169997D9}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchFireShotgun" ID="{12634D3B-20B7-47C2-A010-74A4033D5B1E}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttackBazooka" ID="{A2B0B4EA-9621-4974-884A-79D30778153C}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchExpungeHit" ID="{E68A19FA-5202-4985-B728-2E6E571C83C9}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchCharge" ID="{50060B5F-81C5-4C10-9A50-38B635A5885D}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchCheese" ID="{2A98D89F-06C7-4C96-9BD1-B1A702C57250}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchMenu" ID="{758EAC48-B2B2-4CAF-83E4-DA625FC9E674}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttack" ID="{9AAAF408-9039-4D0C-8337-0D09CA3D917B}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchThrowGrenade" ID="{D3716BC0-8445-4E3B-8ABE-67D114D51A21}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchHeal" ID="{0DF4E21F-035D-4E90-90EA-06A77FAC1ADE}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttackLaser" ID="{CB57C3A6-E080-4F05-8B05-A27584C799C0}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchExpunge" ID="{B8DAB3B8-4CEC-4F06-8A4A-C4259220A5CF}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TwitchAttackGun" ID="{ECED7E53-13C8-4FC3-B280-E272C04D90B8}" WorkUnitID="{CA4B0013-F575-4F79-8BB3-0FD6C2A4139C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Boris" ID="{1EF5C9F0-F38C-484B-A07F-EB4FA3C60833}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BorisJudgementStart" ID="{2F1E5771-C6E6-4538-8BDB-3F2E274AAF9C}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisSpawn" ID="{54C2D6BE-8BB9-456E-9322-9FB2C6C8B3BF}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisBlink" ID="{DF3DDCAD-0BAB-4623-9A8C-AAD409E8CCD4}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisFireBlast" ID="{BC865010-9EF0-4630-B73E-BE2034D80920}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisDash" ID="{8D9E521C-9779-4633-A840-83CC987C8FD7}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisThrustHit" ID="{FC5C576D-B95B-4665-9995-0083D7900B3B}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisWorkUnit" ID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisBlastImpact" ID="{6536CEC5-A423-4888-B89B-4BD562FF9B78}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisJudgementExplosion" ID="{39831BA1-7AAF-4A17-9625-63CA97302478}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisThrust" ID="{AB02FE24-EE1B-4BF3-A908-71C64177F6FE}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisSwing" ID="{21AA8EBF-782E-4E6A-A853-5D1A15B19DAC}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisUltReady" ID="{2AB5873A-FD9A-4EC3-BDE5-5FCAE0D58E48}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisHit" ID="{6E48841A-7226-4EFC-B040-051052CA8FAD}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisJudgementEnd" ID="{21BBEF95-811E-4F5E-9520-BD70BB1F0F6C}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BorisLoop" ID="{A54FB545-4A62-4F6F-9A56-5680441EF8E2}" WorkUnitID="{28C79F8F-31E4-47A3-BFB4-162B3FD26C16}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MinerV2" ID="{82B597B4-3772-413F-B89C-31EE854621DF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MinerWorkUnit" ID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" WorkUnitID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MinerSwing" ID="{1F3734FC-448A-4DC6-885E-1EF1CDF240A1}" WorkUnitID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MinerHit" ID="{1C75DC58-8E2D-4DF8-843A-33E76F93EBCB}" WorkUnitID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MinerSelect" ID="{B33D7DB4-27A5-4E13-89A2-609299AA843C}" WorkUnitID="{FF27D8C2-F6D3-49C5-8B2C-578474A3F489}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4E8166AD-608E-49A8-91A0-1C3C71476B6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="AatroxSwordSwing" ID="{00E16105-5121-49A4-BE97-1D1CF6351DAC}">
+					<ChildrenList>
+						<Action Name="" ID="{55DD5495-D2E5-48C8-8392-831C8BEBB189}" ShortID="147677457">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing" ID="{1B68C47B-8B7A-4574-825D-5CFA479B19EE}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxLightSlash" ID="{ADF7FACA-6F37-4EB8-8BC7-CD3A8A18F4E1}">
+					<ChildrenList>
+						<Action Name="" ID="{5C063320-F40C-4112-8AD5-363D4021C42D}" ShortID="21140460">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightSlash" ID="{9E0590DD-BDC0-43A2-B1FC-369EF067F5EE}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxHeavySlash" ID="{97B463A9-CC6F-4D10-87DC-D0A76C48482C}">
+					<ChildrenList>
+						<Action Name="" ID="{44F02862-F5BC-45B7-A0F1-5A8E81D1B558}" ShortID="914784762">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeavySlash" ID="{FF79DA73-FE5B-4710-A418-67160583220E}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PriceToggle" ID="{97F55CDD-4F8F-48AA-9653-05C6FF79D53D}">
+					<ChildrenList>
+						<Action Name="" ID="{7AE86B0C-E961-435A-A9FA-870CF2B013E3}" ShortID="963636961">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PriceToggle" ID="{47772883-E571-47BE-A372-F7946B15DA85}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ThirstToggle" ID="{5C9EFDC1-6BDE-45FB-912D-4F088A1A2F6A}">
+					<ChildrenList>
+						<Action Name="" ID="{535D1491-49B6-401C-914F-DD5AEC85B4C6}" ShortID="624536112">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThirstToggle" ID="{4F012253-D09F-41C0-BB08-E1F64B834A7C}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DarkFlightStart" ID="{2E0AA3E8-86C3-4F85-B913-4DBB78777865}">
+					<ChildrenList>
+						<Action Name="" ID="{1099457C-ECF0-41F3-ABF1-A6ACACFD7197}" ShortID="658265540">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DarkFlightLiftoff" ID="{064343B8-54F1-40E2-8F67-BFA0EEA9A9E4}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DarkFlightDive" ID="{D361922D-F902-466A-BAC7-E5A49C4D6D5E}">
+					<ChildrenList>
+						<Action Name="" ID="{9C3BAB3C-B2A6-467D-A34E-0F3239C4EB1C}" ShortID="258848446">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DarkFlightDescent" ID="{B0E05E35-E91E-4E19-BF1E-A25FF8427A0C}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MassacreCast" ID="{9303F146-AD35-4A75-8B90-A807AE88B43C}">
+					<ChildrenList>
+						<Action Name="" ID="{E6CE170D-432D-4457-8863-5CF88F334AC6}" ShortID="1007571544">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Massacre" ID="{F267F628-9069-41D6-923F-BEC22CAF840A}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MassacreCancel" ID="{842896A2-8881-44D8-83FF-BA8D235A8476}">
+					<ChildrenList>
+						<Action Name="" ID="{CA5CBE10-FF02-489F-BBED-28244A14D8CE}" ShortID="517942077">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DTEnd" ID="{8D75356D-59D0-4F07-A02C-2C1F587719AF}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DarkFlightImpact" ID="{A330EF14-1826-48BE-A4EB-E05519AE9026}">
+					<ChildrenList>
+						<Action Name="" ID="{AC70E8E2-949C-4E08-84E9-557B084CBBFD}" ShortID="294322111">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DarkFlightImpact" ID="{B9CD0097-1CCB-4359-8FD4-D3DAF6A012B6}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ShadowStep" ID="{A4ED5508-D58F-4332-8B82-70476DDE2320}">
+					<ChildrenList>
+						<Action Name="" ID="{B1C645B2-B5B1-43BE-AC40-8ADF5CED8D45}" ShortID="3063492">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShadowStep" ID="{6A51C991-D349-4F9F-A241-DC57C68ADB40}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxBigHeal" ID="{0350A080-6628-4CD8-9964-261C188CBD88}">
+					<ChildrenList>
+						<Action Name="" ID="{5F5A44A8-B688-43B2-86C6-88516E3408BA}" ShortID="499409707">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigHeal" ID="{81DC3FBB-906B-485E-9BDC-3F36272693D2}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BladesOfTorment" ID="{2A5B39C5-BA07-4672-A196-D24A83EC1A1B}">
+					<ChildrenList>
+						<Action Name="" ID="{F9AFD8B8-A3DC-485D-AB31-F164DBC46FCC}" ShortID="978698544">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BladesOfTorment" ID="{C85D7DF4-D5E7-42A2-B867-2F48ED272875}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StingerStart" ID="{67D829D0-0B74-4B4D-8B37-F52F4944E931}">
+					<ChildrenList>
+						<Action Name="" ID="{1DDE28E0-F713-4538-AE68-286DE85E3EF5}" ShortID="344010177">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StingerStart" ID="{8438F762-81FA-413D-AC00-DB0069AE4233}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stinger" ID="{16ACA4F5-C0CF-444C-A911-FD5A65CC4043}">
+					<ChildrenList>
+						<Action Name="" ID="{C6366BE0-8564-4C33-8302-31B84B233280}" ShortID="502511610">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger" ID="{E11A0C7B-CEED-449B-A806-F96D6A474E3D}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxUppercut" ID="{18BA2225-147A-4B0A-844E-E721C91581BD}">
+					<ChildrenList>
+						<Action Name="" ID="{C77F7EF5-6AC8-42BA-B888-04678F593689}" ShortID="27903128">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Uppercut" ID="{FC315349-1C02-443E-9ABD-0A105D7EA5BA}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxDownslash" ID="{BF399EF2-061B-4615-A0A1-D26F749EDFD9}">
+					<ChildrenList>
+						<Action Name="" ID="{508BAA7C-E98B-4787-AC27-496A632C6FD3}" ShortID="33441151">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Downslash" ID="{B5DC8483-3EB7-41C6-BEEF-92230CC6890F}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MassacreLoop" ID="{A354EFB1-E61D-48D8-805F-5688C42B4AB0}">
+					<ChildrenList>
+						<Action Name="" ID="{C4E30096-9889-467C-B3EE-7B6A6DEE78D4}" ShortID="869677507">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MassacreLoop" ID="{F24F0F98-483E-440C-B348-7FE884BCDCCE}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxChargeShot" ID="{A4CCDDA7-B2BF-402E-807B-A5A88AA06287}">
+					<ChildrenList>
+						<Action Name="" ID="{0530C2E4-4B99-45EB-97BE-D520AFE6811C}" ShortID="523516171">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxChargeShot" ID="{2EBCE3B2-6BFF-481D-9CE9-E9539EC6AA60}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxFlurryStart" ID="{7AD6D628-5C3D-4670-A97C-3BAEF0581245}">
+					<ChildrenList>
+						<Action Name="" ID="{8D84437E-B4A2-4952-8FFC-F7EC119ECA3A}" ShortID="983386946">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxFlurryStart" ID="{844F0A7F-5FAD-4B8A-BB77-A9A65E68207D}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxFlurryEnd" ID="{2889EC9B-4A52-4431-AE1A-A94909578918}">
+					<ChildrenList>
+						<Action Name="" ID="{7857B286-67C0-4FEB-8370-9D2DB4ED851D}" ShortID="637652665">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxFlurryEnd" ID="{95420D6D-ECF1-4480-ADC5-454CFB918782}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxGunshot" ID="{2214B4B1-80CE-48BC-A64F-7C0A106D15D9}">
+					<ChildrenList>
+						<Action Name="" ID="{A188ADF3-DD0A-4B34-991F-5BB16FA79D65}" ShortID="509467247">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxGunshot" ID="{7F3846BD-12D3-4F84-A5F6-3EA03BE2581B}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxRainstorm" ID="{152DE29D-D2ED-41C5-B883-1E4D0134F7D6}">
+					<ChildrenList>
+						<Action Name="" ID="{26D6F9C2-091A-4EAB-9959-6B04077536F4}" ShortID="732453082">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxRainstormStart" ID="{302D9F93-26A1-4F7B-9D51-8F6793D9734C}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxStabbed" ID="{9F415908-1308-4A6A-BE6E-7ABFE52DF148}">
+					<ChildrenList>
+						<Action Name="" ID="{52C8848E-5015-4255-922B-72F37BAEA183}" ShortID="844253657">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxStabbed" ID="{E249F219-C38F-4AAF-A2E6-9B154CC83540}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxSwapGun" ID="{B23717D3-2C8B-47A6-8F82-CECDD28569AC}">
+					<ChildrenList>
+						<Action Name="" ID="{18B2EE18-AB36-44C1-A832-0A0E368E065F}" ShortID="856118565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxSwapGun" ID="{6B9D35A0-2ABB-46DE-BA8F-40538FCF9E73}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AatroxSwapSword" ID="{CCEE056C-125D-4569-B831-DA1F6255B8AF}">
+					<ChildrenList>
+						<Action Name="" ID="{FD71CA63-E743-46B7-9E0F-1F10A0B3993F}" ShortID="448485834">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AatroxSwapSword" ID="{7E461CCC-08E3-4A3C-A5AF-E4AE5AB07AF2}" WorkUnitID="{D011E6AF-88C7-481E-B97E-CAAEC9A4BC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
