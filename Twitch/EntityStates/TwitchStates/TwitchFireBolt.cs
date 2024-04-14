@@ -78,7 +78,7 @@ namespace EntityStates.TwitchStates
                         BulletAttack bulletAttack = new BulletAttack();
                         bulletAttack.bulletCount = 1U;
                         bulletAttack.aimVector = aimRay.direction;
-                        bulletAttack.origin = aimRay.origin;
+                        bulletAttack.origin = aimRay.origin + new Vector3 (0f, 0.25f, 0f);
                         bulletAttack.damage = damage;
                         bulletAttack.damageColorIndex = DamageColorIndex.Default;
                         bulletAttack.damageType = DamageType.BlightOnHit;
