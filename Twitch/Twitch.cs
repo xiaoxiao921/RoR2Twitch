@@ -3251,26 +3251,26 @@ namespace Twitch
             ItemDisplayRuleSet.KeyAssetRuleGroup[] item = itemDisplayRuleSet.keyAssetRuleGroups;
             if (item != null)
             {
-            for (int i = 0; i < item.Length; i++)
-            {
-                ItemDisplayRule[] rules = item[i].displayRuleGroup.rules;
+                for (int i = 0; i < item.Length; i++)
+                {
+                    ItemDisplayRule[] rules = item[i].displayRuleGroup.rules;
                     if (rules != null)
                     {
-                for (int j = 0; j < rules.Length; j++)
-                {
-                    GameObject followerPrefab = rules[j].followerPrefab;
-                    if (followerPrefab)
-                    {
-                        string name = followerPrefab.name;
-                        string key = name?.ToLower();
-                        if (!itemDisplayPrefabs.ContainsKey(key))
+                        for (int j = 0; j < rules.Length; j++)
                         {
-                            itemDisplayPrefabs[key] = followerPrefab;
+                            GameObject followerPrefab = rules[j].followerPrefab;
+                            if (followerPrefab)
+                            {
+                                string name = followerPrefab.name;
+                                string key = name?.ToLower();
+                                if (!itemDisplayPrefabs.ContainsKey(key))
+                                {
+                                    itemDisplayPrefabs[key] = followerPrefab;
+                                }
+                            }
                         }
                     }
                 }
-            }
-        }
             }
         }
 
