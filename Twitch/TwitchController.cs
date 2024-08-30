@@ -207,9 +207,10 @@ namespace Twitch
         private void SetWeaponDisplays(int newWeapon)
         {
             ItemDisplayRule[] rules = default;
-            ItemDisplayRuleSet itemDisplayRuleSet = base.GetComponentInChildren<CharacterModel>().itemDisplayRuleSet;
-            bool flag = newWeapon == 0;
-            if (flag)
+            var characterModel = GetComponentInChildren<CharacterModel>();
+            if (!characterModel) return;
+            ItemDisplayRuleSet itemDisplayRuleSet = characterModel.itemDisplayRuleSet;
+            if (newWeapon == 0)
             {
                 rules = GetItemDisplayRule(itemDisplayRuleSet, RoR2Content.Items.Behemoth);
                 rules[0].childName = "Weapon";
