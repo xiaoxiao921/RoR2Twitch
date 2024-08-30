@@ -19,7 +19,7 @@ using UnityEngine.Rendering;
 namespace Twitch
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInPlugin("com.rob.Twitch", "Twitch", "2.3.1")]
+    [BepInPlugin("com.rob.Twitch", "Twitch", "2.4.1")]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     public class Twitch : BaseUnityPlugin
     {
@@ -120,7 +120,7 @@ namespace Twitch
                     bool flag6 = flag5;
                     if (flag6)
                     {
-                        bool flag7 = di.damageType.HasFlag(DamageType.BlightOnHit);
+                        bool flag7 = di.damageType.damageType.HasFlag(DamageType.BlightOnHit);
                         bool flag8 = flag7;
                         if (flag8)
                         {
@@ -149,7 +149,7 @@ namespace Twitch
                         }
                         else
                         {
-                            bool flag16 = di.damageType.HasFlag(DamageType.PoisonOnHit);
+                            bool flag16 = di.damageType.damageType.HasFlag(DamageType.PoisonOnHit);
                             bool flag17 = flag16;
                             if (flag17)
                             {
@@ -374,7 +374,7 @@ namespace Twitch
             };
             characterModel.autoPopulateLightInfos = true;
             characterModel.invisibilityCount = 0;
-            characterModel.temporaryOverlays = new List<TemporaryOverlay>();
+            characterModel.temporaryOverlays = new();
             Reflection.SetFieldValue(characterModel, "mainSkinnedMeshRenderer", characterModel.baseRendererInfos[0].renderer.gameObject.GetComponent<SkinnedMeshRenderer>());
             bool flag = Twitch.characterPrefab.GetComponent<TeamComponent>() != null;
             TeamComponent component8;
@@ -428,27 +428,22 @@ namespace Twitch
             KinematicCharacterMotor component14 = Twitch.characterPrefab.GetComponent<KinematicCharacterMotor>();
             component14.CharacterController = component3;
             component14.Capsule = component13;
-            component14.Rigidbody = component12;
             component13.radius = 0.5f;
             component13.height = 1.82f;
             component13.center = new Vector3(0f, 0f, 0f);
             component13.material = null;
-            component14.DetectDiscreteCollisions = false;
             component14.GroundDetectionExtraDistance = 0f;
             component14.MaxStepHeight = 0.2f;
             component14.MinRequiredStepDepth = 0.1f;
             component14.MaxStableSlopeAngle = 55f;
             component14.MaxStableDistanceFromLedge = 0.5f;
-            component14.PreventSnappingOnLedges = false;
             component14.MaxStableDenivelationAngle = 55f;
             component14.RigidbodyInteractionType = RigidbodyInteractionType.None;
             component14.PreserveAttachedRigidbodyMomentum = true;
             component14.HasPlanarConstraint = false;
             component14.PlanarConstraintAxis = Vector3.up;
             component14.StepHandling = StepHandlingMethod.None;
-            component14.LedgeHandling = true;
             component14.InteractiveRigidbodyHandling = true;
-            component14.SafeMovement = false;
             HurtBoxGroup hurtBoxGroup = gameObject4.AddComponent<HurtBoxGroup>();
             HurtBox hurtBox = gameObject4.GetComponentInChildren<CapsuleCollider>().gameObject.AddComponent<HurtBox>();
             hurtBox.gameObject.layer = LayerIndex.entityPrecise.intVal;
@@ -725,7 +720,18 @@ namespace Twitch
             ContentAddition.AddBody(Twitch.characterPrefab);
             ContentAddition.AddSurvivorDef(survivorDef);
             //ItemDisplaySetup();
-            RoR2Application.onLoad += ItemDisplaySetup;
+            RoR2Application.onLoad += () =>
+            {
+                try
+                {
+                    ItemDisplaySetup();
+                }
+                catch (Exception e)
+                {
+                    Debug.LogWarning("The Twitch rat won't have item displays\n" + e);
+                    throw;
+                }
+            };
             SkillSetup();
             CreateMaster();
             SkinSetup();
@@ -3243,11 +3249,13 @@ namespace Twitch
             ItemDisplayRuleSet itemDisplayRuleSet = Resources.Load<GameObject>("Prefabs/CharacterBodies/" + bodyName + "Body").GetComponent<ModelLocator>().modelTransform.GetComponent<CharacterModel>().itemDisplayRuleSet;
 
             ItemDisplayRuleSet.KeyAssetRuleGroup[] item = itemDisplayRuleSet.keyAssetRuleGroups;
-
+            if (item != null)
+            {
             for (int i = 0; i < item.Length; i++)
             {
                 ItemDisplayRule[] rules = item[i].displayRuleGroup.rules;
-
+                    if (rules != null)
+                    {
                 for (int j = 0; j < rules.Length; j++)
                 {
                     GameObject followerPrefab = rules[j].followerPrefab;
@@ -3263,8 +3271,9 @@ namespace Twitch
                 }
             }
         }
+            }
+        }
 
-        // Token: 0x06000065 RID: 101 RVA: 0x0000D2DC File Offset: 0x0000B4DC
         private void SkillSetup()
         {
             foreach (GenericSkill obj in Twitch.characterPrefab.GetComponentsInChildren<GenericSkill>())

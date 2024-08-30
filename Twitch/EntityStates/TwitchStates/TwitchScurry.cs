@@ -141,13 +141,13 @@ namespace EntityStates.TwitchStates
                 bool flag5 = modelTransform;
                 if (flag5)
                 {
-                    TemporaryOverlay temporaryOverlay = modelTransform.gameObject.AddComponent<TemporaryOverlay>();
+                    var temporaryOverlay = TemporaryOverlayManager.AddOverlay(modelTransform.gameObject);
                     temporaryOverlay.duration = 2f;
                     temporaryOverlay.animateShaderAlpha = true;
                     temporaryOverlay.alphaCurve = AnimationCurve.EaseInOut(0f, 1f, 2.5f, 0f);
                     temporaryOverlay.destroyComponentOnEnd = true;
                     temporaryOverlay.originalMaterial = Resources.Load<Material>("Materials/matPoisoned");
-                    temporaryOverlay.AddToCharacerModel(modelTransform.GetComponent<CharacterModel>());
+                    temporaryOverlay.inspectorCharacterModel = modelTransform.GetComponent<CharacterModel>();
                 }
             }
             bool flag6 = twitchController;
@@ -163,7 +163,7 @@ namespace EntityStates.TwitchStates
             bool flag8 = TwitchAmbush.destealthMaterial;
             if (flag8)
             {
-                TemporaryOverlay temporaryOverlay2 = animator.gameObject.AddComponent<TemporaryOverlay>();
+                var temporaryOverlay2 = TemporaryOverlayManager.AddOverlay(animator.gameObject);
                 temporaryOverlay2.duration = 1f;
                 temporaryOverlay2.destroyComponentOnEnd = true;
                 temporaryOverlay2.originalMaterial = TwitchAmbush.destealthMaterial;
