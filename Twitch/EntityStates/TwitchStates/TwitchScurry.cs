@@ -136,13 +136,13 @@ namespace EntityStates.TwitchStates
                 {
                     base.characterBody.RemoveBuff(RoR2Content.Buffs.CloakSpeed);
                 }
-                base.characterBody.AddTimedBuff(Twitch.Twitch.ambushBuff, 2f);
+                base.characterBody.AddTimedBuff(Twitch.Twitch.ambushBuff, 4f);
                 base.characterBody.RecalculateStats();
                 bool flag5 = modelTransform;
                 if (flag5)
                 {
                     var temporaryOverlay = TemporaryOverlayManager.AddOverlay(modelTransform.gameObject);
-                    temporaryOverlay.duration = 2f;
+                    temporaryOverlay.duration = 4f;
                     temporaryOverlay.animateShaderAlpha = true;
                     temporaryOverlay.alphaCurve = AnimationCurve.EaseInOut(0f, 1f, 2.5f, 0f);
                     temporaryOverlay.destroyComponentOnEnd = true;
@@ -153,7 +153,7 @@ namespace EntityStates.TwitchStates
             bool flag6 = twitchController;
             if (flag6)
             {
-                twitchController.GetAmbushBuff(2f);
+                twitchController.GetAmbushBuff(5f);
             }
             bool flag7 = !outer.destroying;
             if (flag7)
@@ -218,10 +218,10 @@ namespace EntityStates.TwitchStates
         public static GameObject dodgeEffect;
 
         // Token: 0x0400006B RID: 107
-        public static float initialSpeedCoefficient = 8f;
+        public static float initialSpeedCoefficient = 5f;
 
         // Token: 0x0400006C RID: 108
-        public static float finalSpeedCoefficient = 0.25f;
+        public static float finalSpeedCoefficient = 4f;
 
         // Token: 0x0400006D RID: 109
         private float rollSpeed;

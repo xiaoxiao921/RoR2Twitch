@@ -5,6 +5,7 @@ using EntityStates.GolemMonster;
 using RoR2;
 using Twitch;
 using UnityEngine;
+using RoR2.Projectile;
 
 namespace EntityStates.TwitchStates
 {
@@ -73,19 +74,18 @@ namespace EntityStates.TwitchStates
                 {
                     Util.PlaySound(Sounds.TwitchAttackGunLaser, base.gameObject);
                     EffectManager.SimpleMuzzleFlash(FireLaser.effectPrefab, base.gameObject, muzzleString, false);
-                    base.AddRecoil(-2f * beamRecoil, -3f * beamRecoil, -1f * beamRecoil, 1f * beamRecoil);
-                    bool isAuthority = base.isAuthority;
-                    if (isAuthority)
+                    base.AddRecoil(-1f * beamRecoil, -2f * beamRecoil, -1f * beamRecoil, 1f * beamRecoil);
+                    if (base.isAuthority)
                     {
                         float damage = damageCoefficient * damageStat;
-                        float force = 0f;
+                        float force = 10f;
                         float procCoefficient = 0.75f;
                         bool isCrit = base.RollCrit();
                         Ray aimRay = base.GetAimRay();
                         BulletAttack bulletAttack = new BulletAttack();
                         bulletAttack.bulletCount = 1U;
                         bulletAttack.aimVector = aimRay.direction;
-                        bulletAttack.origin = aimRay.origin;
+                        bulletAttack.origin = aimRay.origin + new Vector3 (0f, 0.25f, 0f);
                         bulletAttack.damage = damage;
                         bulletAttack.damageColorIndex = DamageColorIndex.Default;
                         bulletAttack.damageType = DamageType.BlightOnHit;
@@ -94,7 +94,7 @@ namespace EntityStates.TwitchStates
                         bulletAttack.force = force;
                         bulletAttack.hitMask = LayerIndex.CommonMasks.bullet;
                         bulletAttack.minSpread = 0f;
-                        bulletAttack.maxSpread = 10f;
+                        bulletAttack.maxSpread = 5f;
                         bulletAttack.isCrit = isCrit;
                         bulletAttack.owner = base.gameObject;
                         bulletAttack.muzzleName = muzzleString;
@@ -106,8 +106,8 @@ namespace EntityStates.TwitchStates
                         bulletAttack.stopperMask = LayerIndex.world.mask;
                         bulletAttack.weapon = null;
                         bulletAttack.tracerEffectPrefab = Twitch.Twitch.laserTracer;
-                        bulletAttack.spreadPitchScale = 0.25f;
-                        bulletAttack.spreadYawScale = 0.25f;
+                        bulletAttack.spreadPitchScale = 0.1f;
+                        bulletAttack.spreadYawScale = 0.1f;
                         bulletAttack.queryTriggerInteraction = QueryTriggerInteraction.UseGlobal;
                         bulletAttack.hitEffectPrefab = MinigunFire.bulletHitEffectPrefab;
                         bulletAttack.HitEffectNormal = MinigunFire.bulletHitEffectNormal;
@@ -116,48 +116,13 @@ namespace EntityStates.TwitchStates
                 }
                 else
                 {
-                    base.AddRecoil(-2f * bulletRecoil, -3f * bulletRecoil, -1f * bulletRecoil, 1f * bulletRecoil);
-                    base.characterBody.AddSpreadBloom(0.33f * bulletRecoil);
+                    Util.PlaySound(Sounds.TwitchAttack, base.gameObject);
+                    base.characterBody.AddSpreadBloom(0.75f);
+                    Ray aimRay2 = base.GetAimRay();
                     EffectManager.SimpleMuzzleFlash(FirePistol2.muzzleEffectPrefab, base.gameObject, muzzleString, false);
-                    bool isAuthority2 = base.isAuthority;
-                    if (isAuthority2)
+                    if (base.isAuthority)
                     {
-                        float damage2 = damageCoefficient * damageStat;
-                        float force2 = 10f;
-                        float procCoefficient2 = 0.75f;
-                        bool isCrit2 = base.RollCrit();
-                        Ray aimRay2 = base.GetAimRay();
-                        new BulletAttack
-                        {
-                            bulletCount = 1U,
-                            aimVector = aimRay2.direction,
-                            origin = aimRay2.origin,
-                            damage = damage2,
-                            damageColorIndex = DamageColorIndex.Default,
-                            damageType = DamageType.BlightOnHit,
-                            falloffModel = BulletAttack.FalloffModel.DefaultBullet,
-                            maxDistance = 256f,
-                            force = force2,
-                            hitMask = LayerIndex.CommonMasks.bullet,
-                            minSpread = 0f,
-                            maxSpread = 10f,
-                            isCrit = isCrit2,
-                            owner = base.gameObject,
-                            muzzleName = muzzleString,
-                            smartCollision = false,
-                            procChainMask = default(ProcChainMask),
-                            procCoefficient = procCoefficient2,
-                            radius = 0.75f,
-                            sniper = false,
-                            stopperMask = LayerIndex.CommonMasks.bullet,
-                            weapon = null,
-                            tracerEffectPrefab = TwitchFireSMG.bulletTracerEffectPrefab,
-                            spreadPitchScale = 0.25f,
-                            spreadYawScale = 0.25f,
-                            queryTriggerInteraction = QueryTriggerInteraction.UseGlobal,
-                            hitEffectPrefab = MinigunFire.bulletHitEffectPrefab,
-                            HitEffectNormal = MinigunFire.bulletHitEffectNormal
-                        }.Fire();
+                        ProjectileManager.instance.FireProjectile(Twitch.Twitch.boltProjectile, aimRay2.origin + new Vector3(0f, 0.25f, 0f), Util.QuaternionSafeLookRotation(aimRay2.direction), base.gameObject, TwitchFireBolt.damageCoefficient * damageStat, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, TwitchFireBolt.projectileSpeed);
                     }
                 }
             }

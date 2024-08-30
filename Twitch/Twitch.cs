@@ -3352,6 +3352,7 @@ namespace Twitch
             LoadoutAPI.AddSkillFamily(skillFamily);
             Reflection.SetFieldValue(component.primary, "_skillFamily", skillFamily);
             SkillFamily skillFamily2 = component.primary.skillFamily;
+            
             skillFamily2.variants[0] = new SkillFamily.Variant
             {
                 skillDef = skillDef,
@@ -3474,7 +3475,7 @@ namespace Twitch
             skillDef.interruptPriority = InterruptPriority.Skill;
             skillDef.isCombatSkill = true;
             skillDef.mustKeyPress = false;
-            skillDef.cancelSprintingOnActivation = true;
+            skillDef.cancelSprintingOnActivation = false;
             skillDef.rechargeStock = 1;
             skillDef.requiredStock = 1;
             skillDef.stockToConsume = 1;
@@ -3540,7 +3541,7 @@ namespace Twitch
             skillDef.activationStateMachineName = "Weapon";
             skillDef.baseMaxStock = 1;
             skillDef.baseRechargeInterval = 24f;
-            skillDef.beginSkillCooldownOnSkillEnd = true;
+            skillDef.beginSkillCooldownOnSkillEnd = false;
             skillDef.canceledFromSprinting = false;
             skillDef.fullRestockOnAssign = false;
             skillDef.interruptPriority = InterruptPriority.Skill;
@@ -3591,19 +3592,19 @@ namespace Twitch
             LoadoutAPI.AddSkillDef(skillDef2);
             Twitch.ambushActiveDef = skillDef2;
             LanguageAPI.Add("TWITCH_UTILITY_SCURRY_NAME", "Scurry");
-            LanguageAPI.Add("TWITCH_UTILITY_SCURRY_DESCRIPTION", "Turn <style=cIsUtility>invisible</style> and <style=cIsUtility>dash</style> a short distance. Gain <style=cIsDamage>bonus attack speed</style> and <style=cIsUtility>piercing shots</style> for 2 seconds.");
+            LanguageAPI.Add("TWITCH_UTILITY_SCURRY_DESCRIPTION", "Turn <style=cIsUtility>invisible</style> and <style=cIsUtility>dash</style> a short distance. Gain <style=cIsDamage>bonus attack speed</style> and <style=cIsUtility>piercing shots</style> for 4 seconds.");
             SkillDef skillDef3 = ScriptableObject.CreateInstance<SkillDef>();
             skillDef3.activationState = new SerializableEntityStateType(typeof(TwitchScurry));
             skillDef3.activationStateMachineName = "Body";
             skillDef3.baseMaxStock = 1;
             skillDef3.baseRechargeInterval = 6f;
             skillDef3.beginSkillCooldownOnSkillEnd = false;
-            skillDef3.canceledFromSprinting = true;
+            skillDef3.canceledFromSprinting = false;
             skillDef3.fullRestockOnAssign = true;
             skillDef3.interruptPriority = InterruptPriority.Skill;
             skillDef3.isCombatSkill = false;
             skillDef3.mustKeyPress = false;
-            skillDef3.cancelSprintingOnActivation = true;
+            skillDef3.cancelSprintingOnActivation = false;
             skillDef3.rechargeStock = 1;
             skillDef3.requiredStock = 1;
             skillDef3.stockToConsume = 1;
